@@ -8,6 +8,11 @@ class Skills extends Component {
       <div>
         <Navigation />
         <p>Skills Man </p>
+        <div>
+          <div className="Project-box">Project one</div>
+          <div className="Project-box">Project two</div>
+          <div className="Project-box">Project three</div>
+        </div>
       </div>
      );
   }

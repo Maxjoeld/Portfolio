@@ -8,7 +8,7 @@ class Home extends Component {
       <div>
         <Navigation />
         <header className="App-header">
-          <h1 className="App-title">Hello, My Name is Maximo Delarosa</h1>
+          <h1 className="App-title">Hello,<br /> My Name is Maximo Delarosa</h1>
         </header>
       </div>
      );

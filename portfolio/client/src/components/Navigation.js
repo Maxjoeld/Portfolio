@@ -10,11 +10,11 @@ class Navigation extends Component {
       <div className="Navigation">
         <div className="Navigation-logo">Logo goes here</div>
         <div className="Navigation-icons">
-          <NavLink to ="/">Home</NavLink>
-          <NavLink to ="/about">About</NavLink>
-          <NavLink to ="/skills">Skills</NavLink>
-          <NavLink to ="/projects">My Work</NavLink>
-          <NavLink to ="/contact">Contact</NavLink>
+          <NavLink className="Navigation-links" to ="/home"><i class="fas fa-home"></i>Home</NavLink>
+          <NavLink className="Navigation-links" to ="/about">About</NavLink>
+          <NavLink className="Navigation-links" to ="/skills">Skills</NavLink>
+          <NavLink className="Navigation-links" to ="/projects">My Work</NavLink>
+          <NavLink className="Navigation-links" to ="/contact">Contact</NavLink>
         </div>
       </div>
      );
