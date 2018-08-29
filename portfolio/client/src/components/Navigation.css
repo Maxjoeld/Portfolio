@@ -1,0 +1,23 @@
+.Navigation {
+  width: 100%;
+  height: 2rem;
+  background-color: #181818;
+  display: flex;
+  justify-content: space-around;
+}
+
+.Navigation-logo {
+  color: white;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  background-color: red;
+}
+
+.Navigation-icons {
+  display: flex;
+  justify-content: space-between;
+  background-color: blue;
+  width: 40%;
+  align-items: center;
+}
