@@ -1,0 +1,28 @@
+ /* .active {
+  text-decoration: none;
+  color: blue;
+} */
+
+/* a:hover {
+  color: red;
+}  */
+
+body {
+  /* position: fixed; */
+  /* overflow: hidden; */
+  /* font-family: Lato; */
+  height: 100vh;
+
+  font-family: Lato,'Montserrat', sans-serif;
+}
+
+html {
+  /* box-sizing: border-box; */
+  width: 100%;
+  height: 100vh;
+  clip: auto;
+  overflow: hidden;
+  /* position: absolute;
+  /* font-size: 62.5%; */
+  
+}

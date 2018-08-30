@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
 
-import './App.css';
+
+import './styles/layout.css'
 import About from './components/About';
-import Home from './components/Home';
+import Home from './components/Home/Home';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
