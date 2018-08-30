@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import Navigation from './Navigation';
+import Navigation from './Navigation/Navigation';
+
 
 class Skills extends Component {
   state = {  }

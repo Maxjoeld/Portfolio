@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Link, NavLink, withRouter } from 'react-router-dom'
-
+import img from './logo.png';
 import './Navigation.css'
 
 class Navigation extends Component {
@@ -8,13 +8,14 @@ class Navigation extends Component {
   render () {
     return (
       <div className='Navigation'>
-        <div className='Navigation-logo'>Logo goes here</div>
+      <img className="logo"src={img} alt='img' />
+        {/* <div className='Navigation-logo'>Logo goes here</div> */}
         <div className='Navigation-icons'>
           <div className='Navigation-show'>
             <NavLink className='Navigation-links' to='/home'>
               <i class='fas fa-home' />
             </NavLink>
-            <NavLink to='/home'>            
+            <NavLink className='Navigation-text' to='/home'>            
               <p className='Navigation-hover'>Home</p>
             </NavLink>
           </div>
@@ -38,7 +39,7 @@ class Navigation extends Component {
             <NavLink className='Navigation-links' to='/projects'>
               <i class='fas fa-code' />
             </NavLink>
-            <NavLink to='/projects'>
+            <NavLink  to='/projects'>
               <p className='Navigation-hover'>Projects</p>
             </NavLink>
           </div>

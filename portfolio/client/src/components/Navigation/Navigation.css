@@ -6,8 +6,13 @@
   justify-content: space-around;
 }
 
+.logo {
+  max-width: 3rem;
+}
+
 .Navigation-show {
-  width: 5rem;
+  width: 8rem;
+  /* padding: 1rem; */
 }
 
 .Navigation-hover {
@@ -15,11 +20,14 @@
   display: none;
 }
 .Navigation-links {
+  /* background-color: yellow; */
+  /* padding: 1rem; */
   -webkit-animation: fadeInFromNone 0.5s ease-out;
   -moz-animation: fadeInFromNone 0.5s ease-out;
   -o-animation: fadeInFromNone 0.5s ease-out;
-  animation: fadeInFromNone 0.5s ease-out;
+  animation: fadeInFromNone 0.8s ease-out;
 }
+
 .Navigation-show:hover .Navigation-hover {
   display: block;
   -webkit-animation: fadeInFromNone 0.5s ease-out;

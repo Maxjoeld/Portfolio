@@ -10,7 +10,7 @@ a:hover {
 body {
   /* position: fixed; */
   /* overflow: hidden; */
-  font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+  font-family: Lato;
 }
 
 html {
@@ -21,6 +21,6 @@ html {
   clip: auto;
   position: absolute;
   overflow: hidden;
-  font-size: 62.5%;
+  font-size: 10px;
   
 }
