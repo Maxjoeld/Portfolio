@@ -1,8 +1,58 @@
 .Contact {
   width: inherit;
   display: flex;
-  justify-content: space-around;
-  height: inherit;
+  flex-direction: column;
   margin: 12%;
-  background-color: maroon;
+  /* background-color: maroon; */
+}
+
+.Contact-title {
+  font-size: 3rem;
+  color: #74F9D9;
+
+}
+
+.Contact-Form {
+  /* background: blue; */
+  display: flex;
+  flex-direction: column;
+}
+
+.Contact-Name {
+  color: white;
+  width: 7rem;
+  height: 2rem;
+  padding: 0.1rem;
+  background: #37393B;
+  border: none;
+  margin-bottom: 1rem;
+}
+
+.Contact-Subject {
+  color: white;
+  width: 7rem;
+  height: 2rem;
+  padding: 0.1rem;
+  background: #37393B;
+  border: none;
+  margin-bottom: 1rem;
+}
+
+.Contact-message {
+  color: white;
+  width: 40%;
+  height: 10rem;
+  padding: 0.1rem;
+  background: #37393B;
+  border: none;
+  margin-bottom: 4rem;
+}
+
+.Contact-submit {
+  color: #74F9D9;
+  background: none;
+  border: 0.7px solid #74F9D9;
+  width: 20%;
+  margin-top: -5rem;
+  height: 2.5rem;
 }
