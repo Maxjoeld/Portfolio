@@ -4,7 +4,7 @@
   display: flex;
   justify-content: space-around;
   height: inherit;
-  margin: 5%;
+  margin: 12%;
 }
 
 .Skills-box {
@@ -24,6 +24,7 @@
 }
 
 .Project {
+  margin-top: 4rem;
   width: 50%;
   /* background-color: blue; */
 }
