@@ -1,0 +1,22 @@
+.About-box {
+}
+
+.About-para {
+  width: 50%;
+}
+
+.About {
+  /* background-color: maroon; */
+  width: inherit;
+  display: flex;
+  justify-content: space-around;
+  height: inherit;
+  margin: 5%;
+}
+
+.About-title {
+  color: #74F9D9;
+  font-size: 3rem;
+  font-weight: 300;
+  margin-bottom: 0;
+}

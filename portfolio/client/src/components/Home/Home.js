@@ -8,17 +8,15 @@ class Home extends Component {
     return ( 
       <div className="App">
         <Navigation />
-        {/* <div> */}
-          <div className="Home-header">
-            <div className="Home-title">
-              Hello,<br /> 
-              I'm Maximo Delarosa
-              <button className="Contact-button">
-                Contact me
-              </button>
-            </div>
+        <div className="Container">
+          <div className="Home-title">
+            Hello,<br /> 
+            I'm Maximo Delarosa
+            <button className="Contact-button">
+              Contact me
+            </button>
           </div>
-        {/* </div> */}
+        </div>
       </div>
      );
   }

@@ -1,0 +1,29 @@
+.Skills {
+  /* background-color: maroon; */
+  width: inherit;
+  display: flex;
+  justify-content: space-around;
+  height: inherit;
+  margin: 5%;
+}
+
+.Skills-box {
+  /* background-color: yellow; */
+  width: 50%;
+}
+
+.Skills-title {
+  color: #74F9D9;
+  font-size: 4rem;
+  /* font-weight: 400; */
+  margin-bottom: 0;
+}
+
+.Skills-text {
+  width: 75%;
+}
+
+.Project {
+  width: 50%;
+  /* background-color: blue; */
+}
