@@ -1,0 +1,17 @@
+.Projects {
+  width: inherit;
+  display: flex;
+  flex-flow: row wrap;
+  /* height: inherit; */
+  justify-content: center;
+  margin: 12%;
+  /* background-color: maroon; */
+}
+
+.project-box {
+  width: 20rem;
+  height: 15rem;
+  border: 0.4px solid rgb(220, 219, 219);
+  margin-right: 1rem;
+  margin-bottom: 0;
+}
