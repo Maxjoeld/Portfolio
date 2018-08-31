@@ -11,13 +11,13 @@
 }
 
 .Home-title {
+  margin: 12%;
   font-size: 3rem;
   font-weight: 300;
   /* background-color: blue; */
   display: flex;
   flex-direction: column;
-  padding-left: 5rem;
-  height: 100%;
+  margin-top: 25rem;
   justify-content: center;
 }
 
