@@ -1,0 +1,44 @@
+.Sidebar {
+  height: 55rem;
+  width: 3rem;
+  /* background-color: yellow; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.slideout {
+  margin-left: -1rem;
+  margin-bottom: 10rem;
+}
+
+.slideout span {
+  display: block;
+  width: 2rem;
+  height: 4px;
+  
+  background-color: rgba(124, 124, 124, 0.336);
+  margin: 5px 2rem;
+}
+
+
+.Sidebar:hover .slideout {
+  display: none;
+}
+
+.Sidebar:hover .bar {
+  /* display: block; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 2rem;
+  cursor: pointer;
+  /* background-color: blue; */
+  height: 30%;
+  margin-left: 1rem;
+  margin-bottom: 10rem;
+}
+
+.bar {
+  display: none;
+}

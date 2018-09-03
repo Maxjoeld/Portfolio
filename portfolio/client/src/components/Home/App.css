@@ -5,6 +5,7 @@
 }
 
 .Container {
+  display: flex;
   background-color: #222;
   color: white;
   height: 60rem;

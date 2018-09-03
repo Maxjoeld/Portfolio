@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Navigation from '../Navigation/Navigation';
+import Sidebar from '../Sidebar';
 import './App.css';
 
 class Home extends Component {
@@ -9,6 +10,7 @@ class Home extends Component {
       <div className="App">
         <Navigation />
         <div className="Container">
+          <Sidebar />
           <div className="Home-title">
             Hello,<br /> 
             I'm Maximo Delarosa

@@ -10,8 +10,9 @@ class Contact extends Component {
         <Navigation />
         <div className="Container">
           <div className="Contact">
-            <form className="Contact-Form">
             <p className="Contact-title">Contact Me</p>
+            <p className="Contact-subtext">If you have any questions, please feel free to contact me</p>
+            <form className="Contact-Form">
             <input
               className="Contact-Name"
               placeholder="Name"

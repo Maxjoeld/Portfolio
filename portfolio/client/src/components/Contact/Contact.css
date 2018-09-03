@@ -9,7 +9,12 @@
 .Contact-title {
   font-size: 3rem;
   color: #74F9D9;
+  /* background-color: white; */
+}
 
+.Contact-subtext {
+  margin-top: -3rem;
+  /* background-color: red; */
 }
 
 .Contact-Form {
