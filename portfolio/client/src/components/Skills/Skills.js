@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Navigation from '../Navigation/Navigation';
+import Sidebar from '../Sidebar';
 import './Skills.css'
 import C from './C.png';
 import javascript from './javascript.png';
@@ -20,6 +21,7 @@ class Skills extends Component {
       <div className="App">
         <Navigation />
         <div className="Container">
+          <Sidebar />
           <div className="Skills">
             <div className="Skills-box">
               <div className="Skills-title animated bounceInDown">Skills</div>

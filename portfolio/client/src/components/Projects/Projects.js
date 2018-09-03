@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import Sidebar from '../Sidebar';
 import Navigation from '../Navigation/Navigation';
 import './Projects.css';
 
@@ -11,6 +12,7 @@ class Projects extends Component {
       <div className="App">
         <Navigation />
         <div className="Container">
+          <Sidebar />
           <div className="Projects">
             <div>
               <p>GiveMeMyMoney</p>

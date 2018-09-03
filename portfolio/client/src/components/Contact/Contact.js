@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Navigation from '../Navigation/Navigation';
+import Sidebar from '../Sidebar';
 import './Contact.css';
 
 class Contact extends Component {
@@ -9,20 +10,32 @@ class Contact extends Component {
       <div className="App">
         <Navigation />
         <div className="Container">
+          <Sidebar />
           <div className="Contact">
             <p className="Contact-title">Contact Me</p>
             <p className="Contact-subtext">If you have any questions, please feel free to contact me</p>
             <form className="Contact-Form">
-            <input
-              className="Contact-Name"
-              placeholder="Name"
-              name="title"
-              type="text"
-              onChange={this.handleInputChange}
-              maxLength="32"
-              required
-            />
-            {/* <br /> */}
+            <div style={{display: 'flex'}}>
+              <input
+                className="Contact-Name"
+                placeholder="Name"
+                name="title"
+                type="text"
+                onChange={this.handleInputChange}
+                maxLength="32"
+                required
+              />
+              {/* <br /> */}
+              <input
+                className="Contact-Email"
+                placeholder="Email"
+                name="title"
+                type="text"
+                onChange={this.handleInputChange}
+                maxLength="32"
+                required
+              />
+            </div>
             <input
               className="Contact-Subject"
               placeholder="Subject"

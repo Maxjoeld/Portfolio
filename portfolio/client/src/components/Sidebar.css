@@ -16,9 +16,12 @@
   display: block;
   width: 2rem;
   height: 4px;
-  
   background-color: rgba(124, 124, 124, 0.336);
   margin: 5px 2rem;
+  -webkit-animation: fadeInFromNone 0.5s ease-out;
+  -moz-animation: fadeInFromNone 0.5s ease-out;
+  -o-animation: fadeInFromNone 0.5s ease-out;
+  animation: fadeInFromNone 0.8s ease-out;
 }
 
 
@@ -32,13 +35,32 @@
   flex-direction: column;
   justify-content: space-between;
   font-size: 2rem;
-  cursor: pointer;
   /* background-color: blue; */
   height: 30%;
   margin-left: 1rem;
   margin-bottom: 10rem;
+  -webkit-animation: fadeInFromNone 0.5s ease-out;
+  -moz-animation: fadeInFromNone 0.5s ease-out;
+  -o-animation: fadeInFromNone 0.5s ease-out;
+  animation: fadeInFromNone 0.8s ease-out;
 }
 
 .bar {
+  margin-left: -10rem;
   display: none;
+}
+
+.one{
+  background-color: blue;
+  cursor: pointer;
+
+}
+
+.two {
+  cursor: pointer;
+}
+
+.three {
+  cursor: pointer;
+
 }

@@ -4,6 +4,7 @@
   flex-direction: column;
   margin: 12%;
   /* background-color: maroon; */
+  width: 50%;
 }
 
 .Contact-title {
@@ -25,17 +26,18 @@
 
 .Contact-Name {
   color: white;
-  width: 7rem;
+  width: 30%;
   height: 2rem;
   padding: 0.1rem;
   background: #37393B;
   border: none;
   margin-bottom: 1rem;
+  margin-right: 1rem;
 }
 
 .Contact-Subject {
   color: white;
-  width: 7rem;
+  width: 62.5%;
   height: 2rem;
   padding: 0.1rem;
   background: #37393B;
@@ -43,9 +45,20 @@
   margin-bottom: 1rem;
 }
 
+.Contact-Email {
+  color: white;
+  width: 30%;
+  height: 2rem;
+  padding: 0.1rem;
+  background: #37393B;
+  border: none;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+}
+
 .Contact-message {
   color: white;
-  width: 40%;
+  width: 62.5%;
   height: 10rem;
   padding: 0.1rem;
   background: #37393B;

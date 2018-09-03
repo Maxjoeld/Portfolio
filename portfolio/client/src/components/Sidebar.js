@@ -12,9 +12,9 @@ class Sidebar extends Component {
           <span />
         </div> 
         <div className="bar">
-          <i className="fas fa-id-card"></i>
-          <i className="fab fa-github"></i>
-          <i className="fab fa-medium"></i>
+          <i className="fas fa-id-card one"></i>
+          <i className="fab fa-github two"></i>
+          <i className="fab fa-medium three"></i>
         </div>
       </div>
      );
