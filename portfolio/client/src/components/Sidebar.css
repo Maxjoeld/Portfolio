@@ -18,6 +18,7 @@
   height: 4px;
   background-color: rgba(124, 124, 124, 0.336);
   margin: 5px 2rem;
+  transition: 0.8s;
   -webkit-animation: fadeInFromNone 0.5s ease-out;
   -moz-animation: fadeInFromNone 0.5s ease-out;
   -o-animation: fadeInFromNone 0.5s ease-out;

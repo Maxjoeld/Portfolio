@@ -8,17 +8,24 @@ import Skills from './components/Skills/Skills';
 import Projects from './components/Projects/Projects';
 import Contact from './components/Contact/Contact';
 
+import Navigation from './components/Navigation/Navigation';
+import Sidebar from './components/Sidebar';
+
 const App = () => {
     return (
       <Router>
-        <Switch>
-          <Route exact path="/home" component={Home} />
-          <Route path="/about" component={About} />
-          <Route path="/projects" component={Projects} />
-          <Route path="/skills" component={Skills} />
-          <Route path="/contact" component={Contact} />
-          <Redirect exact from="/" to="/home" component={Home} />
-        </Switch>
+        <div className="App">
+            <Navigation />
+          <div className="Container">
+            <Sidebar />
+            <Route exact path="/home" component={Home} />
+            <Route path="/about" component={About} />
+            <Route path="/projects" component={Projects} />
+            <Route path="/skills" component={Skills} />
+            <Route path="/contact" component={Contact} />
+            <Redirect exact from="/" to="/home" component={Home} />
+          </div>
+        </div>
       </Router>
     );
 };

@@ -7,22 +7,16 @@ class Home extends Component {
   state = {  }
   render() { 
     return ( 
-      <div className="App">
-        <Navigation />
-        <div className="Container">
-          <Sidebar />
-          <div className="Home-title">
-            Hello,<br /> 
-            I'm Maximo Delarosa
-            <div className="Home-subtext">
-            <p>Software Developer/</p>
-            <p> Graphic Designer</p> 
-            </div>
-            <button className="Contact-button">
-              Contact me
-            </button>
-          </div>
+      <div className="Home-title">
+        Hello,<br /> 
+        I'm Maximo Delarosa
+        <div className="Home-subtext">
+        <p>Software Developer/</p>
+        <p> Graphic Designer</p> 
         </div>
+        <button className="Contact-button">
+          Contact me
+        </button>
       </div>
      );
   }
