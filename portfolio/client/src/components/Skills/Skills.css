@@ -7,9 +7,13 @@
   margin: 12%;
 }
 
-.Skills-box {
+.Skills-box  {
   /* background-color: yellow; */
   width: 50%;
+  -webkit-animation: fadeInFromNone 0.5s ease-out;
+  -moz-animation: fadeInFromNone 0.5s ease-out;
+  -o-animation: fadeInFromNone 0.5s ease-out;
+  animation: fadeInFromNone 3s ease-out;
 }
 
 .Skills-title {
@@ -17,6 +21,11 @@
   font-size: 4rem;
   /* font-weight: 400; */
   margin-bottom: 0;
+  -webkit-animation-duration: 1s;
+}
+
+.icon {
+  -webkit-animation-duration: 1.5s;
 }
 
 .Skills-text {
@@ -24,7 +33,50 @@
 }
 
 .Project {
-  margin-top: 4rem;
+  /* margin-top: 4rem; */
   width: 50%;
   /* background-color: blue; */
+}
+
+.bounceInDown {
+  -webkit-animation-name: bounceInDown;
+  animation-name: bounceInDown;
+}
+
+@keyframes bounceInDown {
+  from,
+  60%,
+  75%,
+  90%,
+  to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -3000px, 0);
+    transform: translate3d(0, -3000px, 0);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 25px, 0);
+    transform: translate3d(0, 25px, 0);
+  }
+
+  75% {
+    -webkit-transform: translate3d(0, -10px, 0);
+    transform: translate3d(0, -10px, 0);
+  }
+
+  90% {
+    -webkit-transform: translate3d(0, 5px, 0);
+    transform: translate3d(0, 5px, 0);
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
 }

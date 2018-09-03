@@ -22,7 +22,7 @@ class Skills extends Component {
         <div className="Container">
           <div className="Skills">
             <div className="Skills-box">
-              <p className="Skills-title">Skills</p>
+              <div className="Skills-title animated bounceInDown">Skills</div>
               <p className="Skills-text">I’ve built several projects with different technologies. I’ve used React/React native as 
                 the front-end framework for all of my apps. More technologies that I used are 
                 listed below react, react native, redux, css/sass, node, express, 
@@ -30,17 +30,17 @@ class Skills extends Component {
               </p>
             </div>
             <div className="Project">
-              <img style={{maxWidth: '4rem', margin: '0.5rem'}}src={C} alt="C" />
-              <img style={{maxWidth: '4rem', margin: '0.5rem'}}src={javascript} alt="C" />
-              <img style={{maxWidth: '4rem', margin: '0.5rem'}}src={mongo} alt="C" />
-              <img style={{maxWidth: '4rem', margin: '0.5rem'}}src={sass} alt="C" />
-              <img style={{maxWidth: '4rem', margin: '0.5rem'}}src={sequelize} alt="C" />
-              <img style={{maxWidth: '4rem', margin: '0.5rem'}}src={python} alt="C" />
-              <img style={{maxWidth: '4rem', margin: '0.5rem'}}src={graph} alt="C" />
-              <img style={{maxWidth: '4rem', margin: '0.5rem'}}src={nodejs} alt="C" />
-              <img style={{maxWidth: '4rem', margin: '0.5rem'}}src={django} alt="C" />
-              <img style={{maxWidth: '4rem', margin: '0.5rem'}}src={redux} alt="C" />
-              <img style={{maxWidth: '4rem', margin: '0.5rem'}}src={express} alt="C" />
+              <img className="icon animated bounceInDown" style={{maxWidth: '4rem', margin: '0.5rem'}}src={C} alt="C" />
+              <img className="icon animated bounceInDown" style={{maxWidth: '4rem', margin: '0.5rem'}}src={javascript} alt="C" />
+              <img className="icon animated bounceInDown" style={{maxWidth: '4rem', margin: '0.5rem'}}src={mongo} alt="C" />
+              <img className="icon animated bounceInDown" style={{maxWidth: '4rem', margin: '0.5rem'}}src={sass} alt="C" />
+              <img className="icon animated bounceInDown" style={{maxWidth: '4rem', margin: '0.5rem'}}src={sequelize} alt="C" />
+              <img className="icon animated bounceInDown" style={{maxWidth: '4rem', margin: '0.5rem'}}src={python} alt="C" />
+              <img className="icon animated bounceInDown" style={{maxWidth: '4rem', margin: '0.5rem'}}src={graph} alt="C" />
+              <img className="icon animated bounceInDown" style={{maxWidth: '4rem', margin: '0.5rem'}}src={nodejs} alt="C" />
+              <img className="icon animated bounceInDown" style={{maxWidth: '4rem', margin: '0.5rem'}}src={django} alt="C" />
+              <img className="icon animated bounceInDown" style={{maxWidth: '4rem', margin: '0.5rem'}}src={redux} alt="C" />
+              <img className="icon animated bounceInDown" style={{maxWidth: '4rem', margin: '0.5rem'}}src={express} alt="C" />
             </div>
           </div>
         </div>
