@@ -22,7 +22,27 @@ class Projects extends Component {
           <div className="project-onhover">
             <p className="project-onhover-title">GiveMeMyMoney</p>
             <p className="project-stack">Node.js<span>+</span>React<span>+</span>Mongodb</p>
-            <button onClick={()=> this.showModal()}>Learn More</button>
+            <button className="project-button"onClick={()=> this.showModal()}>Learn More</button>
+          </div>
+        </div>
+        <div className="project-position">
+          <p>Notey</p>
+          {/* <p className="project-box"></p> */}
+          <img className="project-box" src={payMe} alt="gif" />
+          <div className="project-onhover">
+            <p className="project-onhover-title">GiveMeMyMoney</p>
+            <p className="project-stack">Node.js<span>+</span>React<span>+</span>Mongodb</p>
+            <button className="project-button"onClick={()=> this.showModal()}>Learn More</button>
+          </div>
+        </div>
+        <div className="project-position">
+          <p>Notey</p>
+          {/* <p className="project-box"></p> */}
+          <img className="project-box" src={payMe} alt="gif" />
+          <div className="project-onhover">
+            <p className="project-onhover-title">Lunch</p>
+            <p className="project-stack">Node.js<span>+</span>React<span>+</span>Mongodb</p>
+            <button className="project-button"onClick={()=> this.showModal()}>Learn More</button>
           </div>
         </div>
         {this.state.showModal ? 

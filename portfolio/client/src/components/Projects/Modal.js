@@ -30,7 +30,12 @@ class Modal extends Component {
                   to a page where they can easily and without barriers make the 
                   required payment to the admin.
                 </p>
-                <p className="leave-modal" onClick={() => this.props.showModal()}>x</p>
+                <div className="Slideshow-view">
+                  <a href="https://www.givememymoney.app/" target="_blank">
+                    <button className="Slideshow-viewsite">View Site</button>
+                  </a>
+                  <p className="leave-modal" onClick={() => this.props.showModal()}>x</p>
+                </div>
               </div>
             </div>
           </div>

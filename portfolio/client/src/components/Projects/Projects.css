@@ -6,8 +6,6 @@
   justify-content: center;
   /* width: 80rem; */
   margin: 0 auto;
-  /* margin-top: -10rem; */
-  background-color: maroon;
 }
 
 .project-position:hover .project-box {
@@ -23,6 +21,8 @@
 
 .project-position {
   margin-top: 10rem;
+  /* background-color: yellow; */
+  height: 20rem;
 }
 
 .project-box {
@@ -51,15 +51,23 @@
   animation: fadeInFromNone 1s ease-out;
 }
 
+.project-stack {
+  color: grey;
+  font-size: 1rem;
+  margin-top: -1rem;
+  margin-bottom: 1rem;
+}
 .project-stack span {
   font-size: .7rem;
 }
 
-/* .project-onhover-title {
-  color: black;
-} */
+.Slideshow-view {
+  display: flex;
+}
 
 .project-button {
-  border: none;
-  height: 2.5rem;
+  border: 0.3px solid blue;
+  width: 8rem;
+  height: 2rem;
+  cursor: pointer;
 }
