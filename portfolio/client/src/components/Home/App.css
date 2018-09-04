@@ -1,24 +1,11 @@
-.App {
-  display: flex;
-  flex-direction: column;
-  /* height: 100vh */
-}
-
-.Container {
-  display: flex;
-  background-color: #222;
-  color: white;
-  height: 60rem;
-}
-
 .Home-title {
   margin: 12%;
+  margin-top: 0;
   font-size: 3rem;
   font-weight: 300;
-  /* background-color: blue; */
+  height: 100%;
   display: flex;
   flex-direction: column;
-  margin-top: 25rem;
   justify-content: center;
   -webkit-animation: fadeInFromNone 0.5s ease-out;
   -moz-animation: fadeInFromNone 0.5s ease-out;
@@ -35,6 +22,7 @@
 }
 
 .Contact-button {
+  font-size: 0.8rem;
   cursor: pointer;
   width: 10rem;
   height: 2rem;

@@ -20,10 +20,14 @@
   color: #74F9D9;
   font-size: .8rem;
   display: none;
+  text-decoration: none;
+  background-color: blue;
 }
 .Navigation-links {
   /* background-color: yellow; */
   /* padding: 1rem; */
+  color: #47494b;
+  text-decoration: none;
   -webkit-animation: fadeInFromNone 0.5s ease-out;
   -moz-animation: fadeInFromNone 0.5s ease-out;
   -o-animation: fadeInFromNone 0.5s ease-out;
@@ -63,10 +67,7 @@
   color: #74F9D9;
 }
 /* #74F9D9 */
-a {
-  color: #47494b;
-  text-decoration: none;
-}
+
 
 @-webkit-keyframes fadeInFromNone {
   0% {

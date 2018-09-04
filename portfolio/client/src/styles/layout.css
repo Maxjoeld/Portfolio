@@ -11,5 +11,21 @@ html {
   clip: auto;
   overflow: hidden;
   /* font-size: 62.5%; */
-  
+}
+
+a {
+  text-decoration: none;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  /* height: 100vh */
+}
+
+.Container {
+  display: flex;
+  background-color: #222;
+  color: white;
+  height: 60rem;
 }
