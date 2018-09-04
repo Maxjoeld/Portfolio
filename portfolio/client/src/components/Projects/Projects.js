@@ -15,7 +15,7 @@ class Projects extends Component {
   render() { 
     return ( 
       <div className="Projects">
-        <div className="project-position">
+        <div className="project-position first-pro">
           <p>GiveMeMyMoney</p>
           {/* <p className="project-box"></p> */}
           <img className="project-box" src={payMe} alt="gif" />
@@ -25,7 +25,7 @@ class Projects extends Component {
             <button className="project-button"onClick={()=> this.showModal()}>Learn More</button>
           </div>
         </div>
-        <div className="project-position">
+        <div className="project-position second-pro">
           <p>Lunch</p>
           {/* <p className="project-box"></p> */}
           <img className="project-box" src={payMe} alt="gif" />
@@ -35,7 +35,7 @@ class Projects extends Component {
             <button className="project-button"onClick={()=> this.showModal()}>Learn More</button>
           </div>
         </div>
-        <div className="project-position project-odd">
+        <div className="project-position project-odd third-pro">
           <p>Notey</p>
           {/* <p className="project-box"></p> */}
           <img className="project-box" src={payMe} alt="gif" />
