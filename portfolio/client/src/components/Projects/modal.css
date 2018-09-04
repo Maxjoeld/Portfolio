@@ -3,7 +3,10 @@
   margin-top: -10rem;
   position: fixed;
   width: 105%;
-
+  -webkit-animation: fadeInFromNone 0.5s ease-out;
+  -moz-animation: fadeInFromNone 0.5s ease-out;
+  -o-animation: fadeInFromNone 0.5s ease-out;
+  animation: fadeInFromNone 0.3s ease-out;
 }
 
 .Modal-layout {
