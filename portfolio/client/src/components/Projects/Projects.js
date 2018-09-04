@@ -26,21 +26,21 @@ class Projects extends Component {
           </div>
         </div>
         <div className="project-position">
-          <p>Notey</p>
-          {/* <p className="project-box"></p> */}
-          <img className="project-box" src={payMe} alt="gif" />
-          <div className="project-onhover">
-            <p className="project-onhover-title">GiveMeMyMoney</p>
-            <p className="project-stack">Node.js<span>+</span>React<span>+</span>Mongodb</p>
-            <button className="project-button"onClick={()=> this.showModal()}>Learn More</button>
-          </div>
-        </div>
-        <div className="project-position">
-          <p>Notey</p>
+          <p>Lunch</p>
           {/* <p className="project-box"></p> */}
           <img className="project-box" src={payMe} alt="gif" />
           <div className="project-onhover">
             <p className="project-onhover-title">Lunch</p>
+            <p className="project-stack">Python/Django<span>+</span>React<span>+</span>Sqlite</p>
+            <button className="project-button"onClick={()=> this.showModal()}>Learn More</button>
+          </div>
+        </div>
+        <div className="project-position project-odd">
+          <p>Notey</p>
+          {/* <p className="project-box"></p> */}
+          <img className="project-box" src={payMe} alt="gif" />
+          <div className="project-onhover">
+            <p className="project-onhover-title">Notey</p>
             <p className="project-stack">Node.js<span>+</span>React<span>+</span>Mongodb</p>
             <button className="project-button"onClick={()=> this.showModal()}>Learn More</button>
           </div>

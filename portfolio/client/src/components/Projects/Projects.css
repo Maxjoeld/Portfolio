@@ -5,7 +5,8 @@
   /* height: inherit; */
   justify-content: center;
   /* width: 80rem; */
-  margin: 0 auto;
+  margin: 5rem auto;
+  /* background-color: red; */
 }
 
 .project-position:hover .project-box {
@@ -20,9 +21,12 @@
 }
 
 .project-position {
-  margin-top: 10rem;
   /* background-color: yellow; */
-  height: 20rem;
+}
+
+.project-odd {
+  margin-bottom: 30rem;
+
 }
 
 .project-box {

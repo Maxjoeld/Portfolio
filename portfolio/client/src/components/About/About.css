@@ -13,11 +13,12 @@
   /* background-color: maroon; */
   width: inherit;
   display: flex;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   margin: 12%;
 }
 
 .About-title {
+  margin-top: 0;
   color: #74F9D9;
   font-size: 3rem;
   font-weight: 300;

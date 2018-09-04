@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom'
 import Navigation from '../Navigation/Navigation';
 import Sidebar from '../Sidebar';
 import './App.css';
@@ -14,9 +15,11 @@ class Home extends Component {
         <p>Software Developer/</p>
         <p> Graphic Designer</p> 
         </div>
+        <Link to='/contact'>
         <button className="Contact-button">
           Contact me
         </button>
+        </Link>
       </div>
      );
   }
