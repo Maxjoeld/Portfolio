@@ -8,10 +8,10 @@ class Home extends Component {
     return ( 
       <div className="Home-title">
         Hello,<br /> 
-        I'm Maximo Delarosa
+        I'm Maximo De La Rosa
         <div className="Home-subtext">
         <p>Software Developer/</p>
-        <p> Graphic Designer</p> 
+        {/* <p> Graphic Designer</p>  */}
         </div>
         <Link to='/contact'>
         <button className="Contact-button">
