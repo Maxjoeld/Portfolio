@@ -31,7 +31,7 @@ class Modal extends Component {
                   required payment to the admin.
                 </p>
                 <div className="Slideshow-view">
-                  <a href="https://www.givememymoney.app/" target="_blank">
+                  <a href="https://www.givememymoney.app/" target="_blank" rel="noopener noreferrer">
                     <button className="Slideshow-viewsite">View Site</button>
                   </a>
                   <p className="leave-modal" onClick={() => this.props.showModal()}>x</p>

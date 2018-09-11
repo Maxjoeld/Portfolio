@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import Navigation from '../Navigation/Navigation';
-import Sidebar from '../Sidebar';
+
 import './Skills.css'
 import C from './C.png';
 import javascript from './javascript.png';

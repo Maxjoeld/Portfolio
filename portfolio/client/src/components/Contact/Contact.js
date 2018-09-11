@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import Navigation from '../Navigation/Navigation';
-import Sidebar from '../Sidebar';
 import './Contact.css';
 
 class Contact extends Component {

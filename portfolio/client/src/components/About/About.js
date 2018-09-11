@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import Navigation from '../Navigation/Navigation';
-import Sidebar from '../Sidebar';
 import './About.css';
 
 class About extends Component {

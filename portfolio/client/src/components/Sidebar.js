@@ -13,8 +13,8 @@ class Sidebar extends Component {
         </div> 
         <div className="bar">
           <i className="fas fa-id-card one"></i>
-          <a href="https://github.com/maxjoeld" target="_blank"><i className="fab fa-github two"></i></a>
-          <a href="https://medium.com/@mjd809" target="_blank"><i className="fab fa-medium three"></i></a>
+          <a href="https://github.com/maxjoeld" target="_blank"  rel="noopener noreferrer"><i className="fab fa-github two"></i></a>
+          <a href="https://medium.com/@mjd809" target="_blank"  rel="noopener noreferrer"><i className="fab fa-medium three"></i></a>
         </div>
       </div>
      );
