@@ -20,8 +20,10 @@ class Projects extends Component {
           {/* <p className="project-box"></p> */}
           <img className="project-box" src={payMe} alt="gif" />
           <div className="project-onhover">
-            <p className="project-onhover-title">GiveMeMyMoney</p>
-            <p className="project-stack">Node.js<span>+</span>React<span>+</span>Mongodb</p>
+            <div className="project-animation">
+              <p className="project-onhover-title">GiveMeMyMoney</p>
+              <p className="project-stack">Node.js<span>+</span>React<span>+</span>Mongodb</p>
+            </div>
             <button className="project-button"onClick={()=> this.showModal()}>Learn More</button>
           </div>
         </div>
@@ -30,8 +32,10 @@ class Projects extends Component {
           {/* <p className="project-box"></p> */}
           <img className="project-box" src={payMe} alt="gif" />
           <div className="project-onhover">
-            <p className="project-onhover-title">Lunch</p>
-            <p className="project-stack">Python/Django<span>+</span>React<span>+</span>Sqlite</p>
+            <div className="project-animation">
+              <p className="project-onhover-title">Lunch</p>
+              <p className="project-stack">Python/Django<span>+</span>React<span>+</span>Sqlite</p>
+            </div>
             <button className="project-button"onClick={()=> this.showModal()}>Learn More</button>
           </div>
         </div>
@@ -40,8 +44,10 @@ class Projects extends Component {
           {/* <p className="project-box"></p> */}
           <img className="project-box" src={payMe} alt="gif" />
           <div className="project-onhover">
-            <p className="project-onhover-title">Notey</p>
-            <p className="project-stack">Node.js<span>+</span>React<span>+</span>Mongodb</p>
+            <div className="project-animation">
+              <p className="project-onhover-title">Notey</p>
+              <p className="project-stack">Node.js<span>+</span>React<span>+</span>Mongodb</p>
+            </div>
             <button className="project-button"onClick={()=> this.showModal()}>Learn More</button>
           </div>
         </div>

@@ -10,7 +10,7 @@ class Home extends Component {
         Hello,<br /> 
         I'm Maximo De La Rosa
         <div className="Home-subtext">
-        <p>Software Developer/</p>
+        <p>Software Developer</p>
         {/* <p> Graphic Designer</p>  */}
         </div>
         <Link to='/contact'>
