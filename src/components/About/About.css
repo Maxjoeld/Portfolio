@@ -1,19 +1,33 @@
 .About-box {
+  width: 50%;
   -webkit-animation: fadeInFromNone 0.5s ease-out;
   -moz-animation: fadeInFromNone 0.5s ease-out;
   -o-animation: fadeInFromNone 0.5s ease-out;
   animation: fadeInFromNone 2s ease-out;
 }
 
+.About-img {
+  margin-top: -3rem;
+  max-height: 60%;
+  border-radius: 10%;
+  -webkit-animation: fadeInFromNone 0.5s ease-out;
+  -moz-animation: fadeInFromNone 0.5s ease-out;
+  -o-animation: fadeInFromNone 0.5s ease-out;
+  animation: fadeInFromNone 0.3s ease-out;
+}
+
 .About-para {
-  width: 50%;
+  /* width: 50%; */
 }
 
 .About {
   /* background-color: maroon; */
   width: inherit;
   display: flex;
-  /* justify-content: space-around; */
+  width: 100rem;
+  height: 60rem;
+  /* background-color: red; */
+  justify-content: space-around;
   margin: 12%;
 }
 

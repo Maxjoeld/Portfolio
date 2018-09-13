@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import me from './me.jpg';
+
 import './About.css';
 
 class About extends Component {
@@ -22,6 +24,7 @@ class About extends Component {
             7 month bootcamp that taught me all of the technologies that I know.
           </p>
         </div>
+        <img src={me} className="About-img" alt="img" />
       </div>
      );
   }
