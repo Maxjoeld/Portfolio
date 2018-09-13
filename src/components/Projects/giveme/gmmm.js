@@ -60,7 +60,6 @@ class Giveme extends Component {
       <React.Fragment>
           <div className="Slideshow"style={{
             transform: `translateX(${this.state.translateValue}px)`,
-            transition: 'transform ease-out 0.01s'
           }}>
             {this.state.images.map((image, i) => 
               <img key={i}src={image} style={{ visibility: i === currentIndex ? 'visible': 'hidden' }} className="Slideshow-img" alt="img" />  
