@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import payMe from './Payme.gif';
+import Notey from './Notey.gif';
 import './Projects.css';
 import Modal from './Modal';
 
@@ -47,7 +48,7 @@ class Projects extends Component {
         <div className="project-position project-odd third-pro">
           <p>Notey</p>
           {/* <p className="project-box"></p> */}
-          <img className="project-box" src={payMe} alt="gif" />
+          <img className="project-box" src={Notey} alt="gif" />
           <div className="project-onhover">
             <div className="project-animation">
               <p className="project-onhover-title">Notey</p>

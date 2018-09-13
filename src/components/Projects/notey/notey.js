@@ -3,12 +3,15 @@ import Carousel from 'nuka-carousel';
 
 import signin from './signin.png';
 import todo from './todo.png';
+import signup from './signup.png';
+import convo from './convo.png';
+import home from './home.png';
 
 import '../Projects.css';
 
 class Giveme extends Component {
   state = { 
-    images: [ signin, todo ],
+    images: [ signin, todo, home, convo, signup ],
     translateValue: 0,
     currentIndex: 0,
    }
