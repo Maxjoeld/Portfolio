@@ -38,7 +38,7 @@ class Giveme extends Component {
     return (
       <React.Fragment>
           <div className="Slideshow">
-            <Carousel autoplay={autoplay} pauseOnHover={true} autoplayInterval={playInterval}>
+            <Carousel autoplay={autoplay} wrapAround={true} pauseOnHover={true} autoplayInterval={playInterval}>
               <img src={signin} className="Slideshow-img" alt="img" />
               <img src={invoices} className="Slideshow-img" alt="img" />
               <img src={payInvoice} className="Slideshow-img" alt="img" />
