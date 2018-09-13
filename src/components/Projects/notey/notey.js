@@ -36,10 +36,14 @@ class Giveme extends Component {
     return (
       <React.Fragment>
           <div className="Slideshow">
-            <Carousel autoplay={autoplay} wrapAround={true} pauseOnHover={true} autoplayInterval={playInterval}>
-              <img src={signin} className="Slideshow-img" alt="img" />
-              <img src={todo} className="Slideshow-img" alt="img" />
-            </Carousel>
+              {/* {!loading ? */}
+                <img src={signin} className="Slideshow-img" alt="img" />
+                <img src={todo} className="Slideshow-img" alt="img" />
+              {/* :
+              <Carousel autoplay={autoplay} wrapAround={true} pauseOnHover={true} autoplayInterval={playInterval}>
+                <img src={signin} className="Slideshow-img" alt="img" />
+              </Carousel> 
+              } */}
           </div>
           {/* {loading ?
             <div class="lds-ring Loader"><div></div><div></div><div></div><div></div></div>
