@@ -33,9 +33,8 @@ class Projects extends Component {
             <button className="project-button"onClick={()=> this.showModal('gmmm')}>Learn More</button>
           </div>
         </div>
-        <div className="project-position second-pro">
+        {/* <div className="project-position second-pro">
           <p>Lunch</p>
-          {/* <p className="project-box"></p> */}
           <img className="project-box" src={payMe} alt="gif" />
           <div className="project-onhover">
             <div className="project-animation">
@@ -44,7 +43,7 @@ class Projects extends Component {
             </div>
             <button className="project-button"onClick={()=> this.showModal('lunch')}>Learn More</button>
           </div>
-        </div>
+        </div> */}
         <div className="project-position project-odd third-pro">
           <p>Notey</p>
           {/* <p className="project-box"></p> */}
