@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import Carousel from 'nuka-carousel';
 
+import signin from './signin.png';
+import todo from './todo.png';
+
 import '../Projects.css';
 
 class Giveme extends Component {
@@ -13,7 +16,7 @@ class Giveme extends Component {
    componentDidMount() {
     setTimeout(() => {
       this.setState({ loading: false, autoplay: false });
-    }, 20);
+    }, 100);
    }
 
    componentWillMount() {
@@ -23,7 +26,7 @@ class Giveme extends Component {
 
   render() {
     const { loading } = this.state;
-    let playInterval = 0;
+    let playInterval = 50;
     // let visibility = 'hidden';
     let { autoplay } = this.state;
     if (!loading) {
@@ -32,12 +35,10 @@ class Giveme extends Component {
     }
     return (
       <React.Fragment>
-          <div className="Slideshow"  pauseOnHover={true}>
-            <Carousel autoplay={autoplay}  autoplayInterval={playInterval}>
-              {/* <img src={signin} className="Slideshow-img" alt="img" />
-              <img src={invoices} className="Slideshow-img" alt="img" />
-              <img src={payInvoice} className="Slideshow-img" alt="img" />
-              <img src={reminders} className="Slideshow-img" alt="img" /> */}
+          <div className="Slideshow">
+            <Carousel autoplay={autoplay} wrapAround={true} pauseOnHover={true} autoplayInterval={playInterval}>
+              <img src={signin} className="Slideshow-img" alt="img" />
+              <img src={todo} className="Slideshow-img" alt="img" />
             </Carousel>
           </div>
           {/* {loading ?
