@@ -18,7 +18,7 @@ class Giveme extends Component {
    componentDidMount() {
     setTimeout(() => {
       this.setState({ loading: false, autoplay: false });
-    }, 25);
+    }, 50);
    }
 
    componentWillMount() {
@@ -28,7 +28,7 @@ class Giveme extends Component {
 
   render() {
     const { loading } = this.state;
-    let playInterval = 25;
+    let playInterval = 50;
     // let visibility = 'hidden';
     let { autoplay } = this.state;
     if (!loading) {

@@ -16,7 +16,7 @@ class Giveme extends Component {
    componentDidMount() {
     setTimeout(() => {
       this.setState({ loading: false, autoplay: false });
-    }, 100);
+    }, 50);
    }
 
    componentWillMount() {
