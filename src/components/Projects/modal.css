@@ -22,24 +22,19 @@
 
 .Modal-box {
   margin-top: 5rem;
-  height: 50%;
-  width: 40rem;
+  height: 55%;
+  width: 45rem;
   background: white;
 }
 
 .Slideshow {
   display: flex;
-  height: 50%;
-  /* width: 100%; */
-  /* overflow-x: auto; */
-  /* background: yellow; */
+  height: 55%;
+  width: 100%;
 }
 
 .Slideshow-img {
-  /* position: absolute; */
-  min-width: 100%;
-  /* width: 200rem; */
-  /* height: inherit; */
+  max-width: 100%;
 }
 
 .Slideshow-arrows {
@@ -61,15 +56,11 @@
 }
 
 .opposite {
-  /* margin-right: 1rem; */
-
   transform: rotate(180deg);
   background: rgba(128, 128, 128, 0.42);
-  /* border: 1px solid black; */
   border-radius: 50%;
   cursor: pointer;
   font-size: 1.5rem;
-  /* width: 3rem; */
 }
 
 .Slideshow-details {
@@ -109,7 +100,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* background-color: blue; */
+  background-color: white;
+  width: 100%;
+  margin-left: -1rem;
+  padding-left: 1rem;
 }
 
 .Slideshow-viewsite {
@@ -127,7 +121,6 @@
   cursor: pointer;
   line-height: 0;
   margin-right: 1rem;
-  /* background-color: blue; */
 }
 
 .Loader {

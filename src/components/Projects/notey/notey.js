@@ -14,12 +14,12 @@ class Giveme extends Component {
    }
 
    goToPrevSlide = () => {
-    // if(this.state.currentIndex === this.state.images.length - 1) {
-    //   return this.setState({
-    //     currentIndex: 0,
-    //     translateValue: 0
-    //   })
-    // }
+    if(this.state.currentIndex === 0) {
+      return this.setState({
+        currentIndex: 0,
+        translateValue: 0
+      })
+    }
 
     // This will not run if we met the if condition above
     this.setState(prevState => ({
@@ -32,7 +32,6 @@ class Giveme extends Component {
     // Exiting the method early if we are at the end of the images array.
     // We also want to reset currentIndex and translateValue, so we return
     // to the first image in the array.
-    console.log('hey');
     if(this.state.currentIndex === this.state.images.length - 1) {
       return this.setState({
         currentIndex: 0,
@@ -53,29 +52,17 @@ class Giveme extends Component {
 
 
   render() {
-    const { loading } = this.state;
-    let playInterval = 50;
-    // let visibility = 'hidden';
-    let { autoplay } = this.state;
-    if (!loading) {
-      // visibility = 'visible';
-      autoplay = false;
-    }
-    console.log('hey');
+    const { currentIndex } = this.state;
     return (
       <React.Fragment>
           <div className="Slideshow"style={{
             transform: `translateX(${this.state.translateValue}px)`,
-            transition: 'transform ease-out 0.45s'
-          }}>>
-            {this.state.images.map((image, i) => (
-                <img key={i}src={image} className="Slideshow-img" alt="img" /> )
-              )   
-            }
+            transition: 'transform ease-out 0.01s'
+          }}>
+            {this.state.images.map((image, i) => 
+              <img key={i}src={image} style={{ visibility: i === currentIndex ? 'visible': 'hidden' }} className="Slideshow-img" alt="img" />  
+            )}
           </div>
-          {/* {loading ?
-            <div class="lds-ring Loader"><div></div><div></div><div></div><div></div></div>
-            : null } */}
             <div className="Slideshow-details">
               <div className="Slideshow-arrows">
                 <div onClick={() => this.goToPrevSlide()}>
