@@ -95,9 +95,13 @@
 }
 
 .Slideshow-viewsite {
+  border: none;
+  border-radius: 5%;
+  color: black;
   cursor: pointer;
   width: 10rem;
   height: 2rem;
+  background: rgba(255, 255, 19, 0.899);
 }
 
 .leave-modal {
