@@ -5,8 +5,23 @@ import Notey from './notey/notey';
 import Lunch from './lunch/lunch';
 
 class Modal extends Component {
-  state = {  }
+  state = { 
+    loading: true,
+    className: "exit"
+   }
+  
+  componentWillUnmount() {
+    
+  }
+
+  componentDidMount() {
+    setTimeout(() => this.setState({ loading: false }), 200); // simulates an async action, and hides the spinner
+  }
   render() {
+    const { loading } = this.state;
+    if(loading) { // if your component doesn't have to wait for an async action, remove this block 
+      return null; // render null when app is not ready
+    }
     const { project } = this.props; 
     return ( 
       <div className="Modal">

@@ -9,13 +9,15 @@ import home from './home.png';
 
 import '../Projects.css';
 
-class Giveme extends Component {
+class Notey extends Component {
   state = { 
     images: [ signin, todo, home, convo, signup ],
     translateValue: 0,
     currentIndex: 0,
    }
-
+  //  componentWillUnmount() {
+  //    return null;
+  //  }
    goToPrevSlide = () => {
     if(this.state.currentIndex === 0) {
       return this.setState({
@@ -95,4 +97,4 @@ class Giveme extends Component {
   }
 }
  
-export default Giveme;
+export default Notey;

@@ -8,7 +8,12 @@ class Projects extends Component {
   state = { 
     showModal: false,
     project: '',
+    loading: true,
    }
+
+  // componentDidMount() {
+  //   setTimeout(() => this.setState({ loading: false }), 100); // simulates an async action, and hides the spinner
+  // }
 
   showModal = (project) => {
     // console.log(project);
@@ -19,8 +24,15 @@ class Projects extends Component {
   }
 
   render() {
+    // const { loading } = this.state;
+    // if(loading) { // if your component doesn't have to wait for an async action, remove this block 
+    //   return null; // render null when app is not ready
+    // }
     return ( 
       <div className="Projects">
+        {/* {this.state.loading ? 
+          <div className="loader"></div>
+        : null } */}
         <div className="project-position first-pro">
           <p>GiveMeMyMoney</p>
           <p className="project-box"></p>
