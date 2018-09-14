@@ -85,7 +85,7 @@ class Notey extends Component {
                 Users are able to create/edit and communicate between each other. 
               </p>
               <div className="Slideshow-view">
-                <a href="https://www.givememymoney.app/" target="_blank" rel="noopener noreferrer">
+                <a href="https://notey-app.herokuapp.com" target="_blank" rel="noopener noreferrer">
                   <button className="Slideshow-viewsite">View Site</button>
                 </a>
                 <p className="leave-modal" onClick={() => this.props.showModal()}>x</p>
