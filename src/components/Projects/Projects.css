@@ -1,12 +1,15 @@
 .Projects {
   width: inherit;
   display: flex;
+  /* flex-direction: column; */
   flex-flow: row wrap;
   /* height: inherit; */
   justify-content: center;
+  align-items: center;
   /* width: 80rem; */
   margin: 5rem auto;
   position: relative;
+  overflow: scroll;
   /* background-color: red; */
 }
 
@@ -22,12 +25,24 @@
 }
 
 .project-position {
+  width: 40rem;
+  height: 20rem;
+  /* margin-bottom: 20rem; */
   /* background-color: yellow; */
 }
 
 .project-odd {
-  margin-bottom: 30rem;
+  /* margin-bottom: 30rem; */
 
+}
+
+/* .tryew {
+  
+} */
+
+.lunch {
+  max-height: 40rem;
+  /* margin-left: 10rem;  */
 }
 
 .project-box {

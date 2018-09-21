@@ -7,8 +7,8 @@
 }
 
 .About-img {
-  margin-top: -3rem;
-  max-height: 60%;
+  /* margin-top: -5rem; */
+  max-height: 35%;
   border-radius: 10%;
   -webkit-animation: fadeInFromNone 0.5s ease-out;
   -moz-animation: fadeInFromNone 0.5s ease-out;
