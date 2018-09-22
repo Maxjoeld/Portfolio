@@ -22,9 +22,10 @@ class About extends Component {
             through which I mastered the technologies that I know. 
           </p>
         </div>
-        <div>
+        {/* <div className="About-imgdiv"> */}
+
           <img src={me} className="About-img" alt="img" />
-        </div>
+        {/* </div> */}
       </div>
      );
   }

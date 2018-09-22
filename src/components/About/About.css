@@ -1,5 +1,6 @@
 .About-box {
   width: 50%;
+  /* background-color: yellow; */
   -webkit-animation: fadeInFromNone 0.5s ease-out;
   -moz-animation: fadeInFromNone 0.5s ease-out;
   -o-animation: fadeInFromNone 0.5s ease-out;
@@ -8,17 +9,26 @@
 
 .About-img {
   /* margin-top: -5rem; */
-  max-height: 35%;
+  /* max-width: 75%; */
+  /* width: 10rem; */
+  background-color: white;
+  height: 35%;
   border-radius: 10%;
   margin-left: 2rem;
   -webkit-animation: fadeInFromNone 0.5s ease-out;
   -moz-animation: fadeInFromNone 0.5s ease-out;
   -o-animation: fadeInFromNone 0.5s ease-out;
-  animation: fadeInFromNone 0.3s ease-out;
+  animation: fadeInFromNone 1s ease-out;
 }
 
+/* .About-imgdiv {
+  width: 50%;
+  background-color: blue;
+} */
+
 .About-para {
-  /* width: 50%; */
+  /* width: 50rem; */
+  /* background-color: pink; */
 }
 
 .About {
