@@ -33,11 +33,9 @@ class Lunch extends Component {
     return (
       <React.Fragment>
           <div className="Slideshow"  pauseOnHover={true}>
-            <Carousel autoplay={autoplay}  autoplayInterval={playInterval}>
-              {/* <img src={signin} className="Slideshow-img" alt="img" />
-              <img src={invoices} className="Slideshow-img" alt="img" />
-              <img src={payInvoice} className="Slideshow-img" alt="img" />
-              <img src={reminders} className="Slideshow-img" alt="img" /> */}
+            <Carousel>
+            
+ 
             </Carousel>
           </div>
           {/* {loading ?

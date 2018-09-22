@@ -1,9 +1,18 @@
-.Home-title {
+.Home {
   margin: 12%;
+
   margin-top: 0;
   font-size: 3rem;
   font-weight: 300;
   height: 100%;
+  width: 100%;
+  display: flex;
+  /* justify-content: space-between; */
+  /* background-color: yellow; */
+}
+
+.Home-title {
+  width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -11,6 +20,7 @@
   -moz-animation: fadeInFromNone 0.5s ease-out;
   -o-animation: fadeInFromNone 0.5s ease-out;
   animation: fadeInFromNone 1.5s ease-out;
+  /* background-color: blue; */
 }
 
 .Home-subtext {
@@ -30,6 +40,19 @@
   background-color: yellow;
 }
 
+.nav-arrows {
+  /* background-color: red; */
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: rgb(159, 159, 159);
+}
+
+.pulse {
+  animation: pulse 0.8s infinite; 
+}
+
 
 @keyframes fadeInFromNone {
   0% {
@@ -45,5 +68,39 @@
   100% {
       display: block;
       opacity: 1;
+  }
+}
+
+@-webkit-keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
   }
 }

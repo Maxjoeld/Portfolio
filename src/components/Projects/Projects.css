@@ -8,7 +8,7 @@
   width: 100rem;
   margin: 2rem 5rem 0 5rem;
   position: relative;
-  overflow-y: scroll;
+  overflow: scroll;
   /* height: 100rem; */
   /* overflow-y: scroll; */
   /* background-color: red; */

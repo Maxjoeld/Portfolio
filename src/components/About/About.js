@@ -1,12 +1,15 @@
 import React, { Component } from 'react';
+import { Link, NavLink } from 'react-router-dom'
 import me from './me.jpg';
+
 
 import './About.css';
 
 class About extends Component {
   state = {  }
   render() { 
-    return ( 
+    return (
+
       <div className="About">
         <div className="About-box">
           <p className="About-title">About Me</p>
@@ -26,6 +29,11 @@ class About extends Component {
 
           <img src={me} className="About-img" alt="img" />
         {/* </div> */}
+        {/* <div className="nav-arrows">
+          <NavLink style={{ color: "rgb(159, 159, 159)"}} to="/About">
+            <i style={{ cursor: 'pointer'}}className="fas fa-arrow-right fa-fw pulse" />
+          </NavLink>
+        </div> */}
       </div>
      );
   }
