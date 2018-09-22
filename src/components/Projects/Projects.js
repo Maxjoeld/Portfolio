@@ -85,7 +85,7 @@ class Projects extends Component {
             <div className="project-onhover">
               <div className="project-animation">
                 <p className="project-onhover-title">Lunch</p>
-                <p className="project-stack">Python/Django<span>+</span>React<span>+</span>Sqlite</p>
+                <p className="project-stack">Python/Django<span>+</span>React Native<span>+</span>Sqlite</p>
               </div>
               <button className="project-button"onClick={()=> this.showModal('lunch')}>Learn More</button>
             </div>
