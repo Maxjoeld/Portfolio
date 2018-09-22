@@ -1,9 +1,13 @@
 
 .Modal {
-  /* margin-top: -10rem; */
+  /* margin-top: -10rem;
+  position: fixed;
+  width: 110%;
+  margin-left:-10rem;  */
+  /*  Use this if we want to center the modal */
   position: fixed;
   width: 105%;
-
+  
 }
 
 .Modal-layout {
@@ -18,7 +22,7 @@
 }
 
 .Modal-box {
-  margin-top: 5rem;
+  margin-top: 10rem;
   height: 55%;
   width: 45rem;
   background: white;

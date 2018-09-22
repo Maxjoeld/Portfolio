@@ -46,12 +46,12 @@ class Lunch extends Component {
             <div className="Slideshow-details">
               <div className="SlideShow-title">
                 <p>Lunch</p>
-                <p className="Slideshow-details-sub">Note taking application</p>
+                <p className="Slideshow-details-sub">Food Application</p>
               </div>
               <hr className="hr"/>
               <p className="Slideshow-description">
-                A Note taking app that can be used for general and eductional use.
-                Users are able to create/edit and communicate between each other. 
+                A lunch application that makes use of yelps API, and maps the restaurants within
+                the given parameters
               </p>
               <div className="Slideshow-view">
                 <a href="https://www.givememymoney.app/" target="_blank" rel="noopener noreferrer">

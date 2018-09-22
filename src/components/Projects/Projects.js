@@ -39,13 +39,11 @@ class Projects extends Component {
         {/* {this.state.loading ? 
           <div className="loader"></div>
         : null } */}
-        {/* <div className="Project-layout"> */}
+        
           <div className="project-position first-pro">
             <p>GiveMeMyMoney</p>
             <p className="project-box"></p>
-            <div className="tryew">
               <img className="project-box" src={payMe} alt="gif" />
-            </div>
             <div className="project-onhover">
               <div className="project-animation">
                 <p className="project-onhover-title">GiveMeMyMoney</p>
@@ -54,9 +52,20 @@ class Projects extends Component {
               <button className="project-button"onClick={()=> this.showModal('gmmm')}>Learn More</button>
             </div>
           </div>
-          <div className="project-position project-odd third-pro">
+          <div className="project-position third-pro">
             <p>Notey</p>
             {/* <p className="project-box"></p> */}
+              <img className="project-box" src={Notey} alt="gif" />
+            <div className="project-onhover">
+              <div className="project-animation">
+                <p className="project-onhover-title">Notey</p>
+                <p className="project-stack">Node.js<span>+</span>React<span>+</span>Mongodb</p>
+              </div>
+              <button className="project-button"onClick={()=> this.showModal('notey')}>Learn More</button>
+            </div>
+          </div>
+          {/* <div className="project-position third-pro">
+            <p>Notey</p>
             <div className="tryew">
               <img className="project-box" src={Notey} alt="gif" />
             </div>
@@ -67,8 +76,8 @@ class Projects extends Component {
               </div>
               <button className="project-button"onClick={()=> this.showModal('notey')}>Learn More</button>
             </div>
-          </div>
-          <div className="project-position second-pro">
+          </div> */}
+          <div className="project-position project-odd  second-pro">
             <p className="lunch">Lunch</p>
             <div className="tryew">
               <img className="project-box lunch" src={Lunch} alt="gif" />
@@ -80,7 +89,6 @@ class Projects extends Component {
               </div>
               <button className="project-button"onClick={()=> this.showModal('lunch')}>Learn More</button>
             </div>
-          {/* </div> */}
         </div>
         {this.state.showModal ? 
           <Modal showModal={this.showModal} project={this.state.project}/>

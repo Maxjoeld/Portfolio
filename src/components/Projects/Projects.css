@@ -2,14 +2,15 @@
   width: inherit;
   display: flex;
   /* flex-direction: column; */
-  flex-flow: row wrap;
-  /* height: inherit; */
-  justify-content: center;
-  align-items: center;
-  /* width: 80rem; */
-  margin: 5rem auto;
+  flex-flow: row wrap; 
+  justify-content: center; 
+  align-items: center; 
+  width: 100rem;
+  margin: 2rem 5rem 0 5rem;
   position: relative;
-  overflow: scroll;
+  overflow-y: scroll;
+  /* height: 100rem; */
+  /* overflow-y: scroll; */
   /* background-color: red; */
 }
 
@@ -25,24 +26,30 @@
 }
 
 .project-position {
-  width: 40rem;
+  width: 33rem;
   height: 20rem;
   /* margin-bottom: 20rem; */
   /* background-color: yellow; */
 }
 
 .project-odd {
-  /* margin-bottom: 30rem; */
-
+  /* margin-top: -10rem; */
+  /* width: 40rem;
+  height: 20rem;  */
+  margin-bottom: 10rem;
 }
 
-/* .tryew {
-  
-} */
+.tryew {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 30rem;
+
+  background-color: white; 
+}
 
 .lunch {
-  max-height: 40rem;
-  /* margin-left: 10rem;  */
+  max-height: 16.4rem;
 }
 
 .project-box {
