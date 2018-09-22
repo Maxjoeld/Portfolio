@@ -10,6 +10,7 @@
   /* margin-top: -5rem; */
   max-height: 35%;
   border-radius: 10%;
+  margin-left: 2rem;
   -webkit-animation: fadeInFromNone 0.5s ease-out;
   -moz-animation: fadeInFromNone 0.5s ease-out;
   -o-animation: fadeInFromNone 0.5s ease-out;
@@ -29,6 +30,8 @@
   /* background-color: red; */
   justify-content: space-around;
   margin: 12%;
+  margin-top: 18rem;
+
 }
 
 .About-title {
