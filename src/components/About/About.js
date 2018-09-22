@@ -10,21 +10,21 @@ class About extends Component {
       <div className="About">
         <div className="About-box">
           <p className="About-title">About Me</p>
-          <p className="About-para">I first found interest in web development when I studying 
-            Graphic Design in college. There were several courses that 
-            I took that involved designing web applications using HTML, 
-            CSS and javascript. Once I graduated I quickly 
-            realized that I did not only want to design 
-            applications but actually understand what was going on 
-            under the hood. So I began to look for any  
-            any software engineering opportunities and was honored to 
-            be accepted as an intern at Union Square Park Capital management. 
-            My eagerness to learn more about computer science and web development 
-            led me to leave the internship and join Lambda School , a 
-            7 month bootcamp that taught me all of the technologies that I know.
+          <p className="About-para">
+            I developed an interest in web development while studying Graphic Design
+            as an undergraduate student. After taking several courses involving 
+            creating web applications using HTML, CSS and Javascript, 
+            I realized that I wanted to understand what was going on under the hood as well. 
+            In an effort to do this, I obtained an internship at Union Square 
+            Park Capital Management as a software engineer. 
+            My eagerness to learn more about computer science and 
+            web development then led me to join Lambda School, 
+            through which I mastered the technologies that I know. 
           </p>
         </div>
-        <img src={me} className="About-img" alt="img" />
+        <div>
+          <img src={me} className="About-img" alt="img" />
+        </div>
       </div>
      );
   }
