@@ -1,6 +1,27 @@
+.About {
+  /* background-color: maroon; */
+  width: inherit;
+  display: flex;
+  margin-right: 0px;
+  /* width: 100%; */
+  height: 60rem;
+  /* background-color: red; */
+  justify-content: space-around;
+  align-items: center;
+  margin: -5% 0 12% 12%;
+  /* margin-top: 18rem; */
+  /* background-color: blue; */
+
+}
 .About-box {
   width: 50%;
   /* background-color: yellow; */
+}
+
+.about-arrows {
+  margin-left: 10%;
+  margin-right: 7rem;
+  font-size: 2.5rem;
 }
 
 .About-img {
@@ -29,18 +50,6 @@
   animation: fadeInFromNone 1.5s ease-out;
 }
 
-.About {
-  /* background-color: maroon; */
-  width: inherit;
-  display: flex;
-  width: 100rem;
-  height: 60rem;
-  /* background-color: red; */
-  justify-content: space-around;
-  margin: 12%;
-  margin-top: 18rem;
-
-}
 
 .About-title {
   margin-top: 0;

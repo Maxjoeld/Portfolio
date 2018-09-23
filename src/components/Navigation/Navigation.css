@@ -70,6 +70,7 @@
 .Navigation-links {
   /* padding: 1rem; */
   color: #47494b;
+  /* color: white; */
   text-decoration: none;
   -webkit-animation: fadeInFromNone 0.5s ease-out;
   -moz-animation: fadeInFromNone 0.5s ease-out;

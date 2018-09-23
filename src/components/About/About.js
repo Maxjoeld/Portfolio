@@ -29,8 +29,8 @@ class About extends Component {
 
           <img src={me} className="About-img" alt="img" />
         {/* </div> */}
-        <div className="nav-arrows">
-          <NavLink style={{ color: "rgb(159, 159, 159)"}} to="/About">
+        <div className="about-arrows">
+          <NavLink style={{ color: "rgb(159, 159, 159)"}} to="/skills">
             <i style={{ cursor: 'pointer'}}className="fas fa-arrow-right fa-fw pulse" />
           </NavLink>
         </div>
