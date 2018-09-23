@@ -11,6 +11,11 @@ class About extends Component {
     return (
 
       <div className="About">
+        <div className="about-arrows" style={{ marginLeft: '2rem'}}>
+          <NavLink style={{ color: "rgb(159, 159, 159)"}} to="/home">
+            <i style={{ cursor: 'pointer'}}className="fas fa-arrow-left fa-fw pulse" />
+          </NavLink>
+        </div>
         <div className="About-box">
           <p className="About-title">About Me</p>
           <p className="About-para">
