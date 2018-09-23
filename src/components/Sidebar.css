@@ -1,7 +1,7 @@
 .Sidebar {
   height: 60rem;
   width: 3rem;
-  /* background-color: rgba(255, 255, 255, 0.687); */
+  background-color: rgb(48, 48, 48);
   /* background-color:rgba(174, 174, 174, 0.488); */
 
   border-right: 0.5px solid rgba(255, 255, 255, 0.235);
@@ -61,11 +61,9 @@
 }
 
 .bar a {
-  /* color: black; */
   font-size: 1.5rem;
-  color: white;
-  /* color: #47494b; */
-
+  color: #bababa;
+  /* color: white; */
 }
 
 .one {
