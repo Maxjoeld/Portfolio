@@ -21,11 +21,11 @@ class Home extends Component {
             </button>
           </Link>
         </div>
-        {/* <div className="nav-arrows">
+        <div className="nav-arrows">
           <NavLink style={{ color: "rgb(159, 159, 159)"}} to="/About">
             <i style={{ cursor: 'pointer'}}className="fas fa-arrow-right fa-fw pulse" />
           </NavLink>
-        </div> */}
+        </div>
       </div>
      );
   }
