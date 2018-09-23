@@ -1,18 +1,22 @@
 .Sidebar {
   height: 60rem;
-  width: 5rem;
-  background-color: rgba(255, 255, 255, 0.208);
+  width: 3rem;
+  /* background-color: rgba(255, 255, 255, 0.687); */
+  /* background-color:rgba(174, 174, 174, 0.488); */
+
+  border-right: 0.5px solid rgba(255, 255, 255, 0.235);
+  /* background-color: white; */
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.slideout {
+/* .slideout {
   margin-left: -1rem;
   margin-bottom: 10rem;
-}
+} */
 
-.slideout span {
+/* .slideout span {
   display: block;
   width: 2rem;
   height: 4px;
@@ -23,24 +27,23 @@
   -moz-animation: fadeInFromNone 0.5s ease-out;
   -o-animation: fadeInFromNone 0.5s ease-out;
   animation: fadeInFromNone 0.8s ease-out;
-}
+} */
 
 
 /* .Sidebar:hover .slideout {
   display: flex;
 } */
 
-.Sidebar .bar {
+.bar {
   /* display: block; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   font-size: 2rem;
   color: black;
-  /* background-color: black; */
-  /* background-color: blue; */
   height: 30%;
-  margin-left: 1rem;
+  /* background-color: red; */
+  margin: 0 0.5rem;
   margin-bottom: 10rem;
   -webkit-animation: fadeInFromNone 0.5s ease-out;
   -moz-animation: fadeInFromNone 0.5s ease-out;
@@ -52,17 +55,20 @@
   /* display: flex;
   flex-direction: column;
   justify-content: space-between; */
-  font-size: 2rem;
-  margin-left: -10rem;
+  /* font-size: 2rem; */
+  /* margin-left: -10rem; */
   /* display: none; */
 }
 
 .bar a {
+  /* color: black; */
+  font-size: 1.5rem;
   color: white;
+  /* color: #47494b; */
+
 }
 
 .one {
-  color: white;
   cursor: pointer;
   margin-left: 0.3rem;
 

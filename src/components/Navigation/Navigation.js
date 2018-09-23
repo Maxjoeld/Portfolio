@@ -8,7 +8,9 @@ class Navigation extends Component {
   render () {
     return (
       <div className='Navigation'>
-      <img className="logo"src={img} alt='img' />
+      <div className="logo-box">
+        <img className="logo"src={img} alt='img' />
+      </div>
         {/* <div className='Navigation-logo'>Logo goes here</div> */}
         <div className='Navigation-icons'>
           <div className='Navigation-show'>
