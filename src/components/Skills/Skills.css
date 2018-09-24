@@ -12,6 +12,8 @@
 
 
 .Skills-box  {
+  margin-bottom: 5%;
+
   width: 50%;
   -webkit-animation: fadeInFromNone 0.5s ease-out;
   -moz-animation: fadeInFromNone 0.5s ease-out;
@@ -38,6 +40,8 @@
 
 .Project {
   /* margin-top: 4rem; */
+  margin-bottom: 5%;
+
   margin-left: -10%;
   margin-right: 10%;
   width: 40%;
