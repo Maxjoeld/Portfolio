@@ -1,26 +1,44 @@
 .About {
   /* background-color: maroon; */
-  width: inherit;
-  display: flex;
-  margin-right: 0px;
   width: 100%;
   height: 55rem;
-  /* background-color: red; */
+  display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: 0 auto;
-  /* margin-top: 18rem; */
-  /* background-color: blue; */
-
+  margin-left: 10%;
+  position: relative;
+  /* background-color: red; */
 }
+
+.About-title {
+  margin-top: 0;
+  color: #74F9D9;
+  font-size: 3rem;
+  font-weight: 300;
+  margin-bottom: 0;
+  animation: flipInX 0.5s ease-out;
+}
+
 .About-box {
-  width: 50%;
+  /* width: 0%; */
+  width: 80%;
   /* background-color: yellow; */
+  margin-left: 8%;
 }
 
 .about-arrows {
-  margin-left: 10%;
-  margin-right: 2rem;
+  position: absolute;
+  top: 50%;
+  left: 92%;
+  color: white;
+  font-size: 2.5rem;
+}
+
+.about-Larrow {
+  position: absolute;
+  top: 50%;
+  left: -8%;
+  color: white;
   font-size: 2.5rem;
 }
 
@@ -31,7 +49,8 @@
   background-color: #222;
   height: 35%;
   border-radius: 10%;
-  margin-left: 2rem;
+  margin-left: 2%;
+  margin-right: 20%;
   -webkit-animation: fadeInFromNone 0.5s ease-out;
   -moz-animation: fadeInFromNone 0.5s ease-out;
   -o-animation: fadeInFromNone 0.5s ease-out;
@@ -44,22 +63,12 @@
 } */
 
 .About-para {
+  /* width: 80%; */
   -webkit-animation: fadeInFromNone 0.5s ease-out;
   -moz-animation: fadeInFromNone 0.5s ease-out;
   -o-animation: fadeInFromNone 0.5s ease-out;
   animation: fadeInFromNone 1.5s ease-out;
 }
-
-
-.About-title {
-  margin-top: 0;
-  color: #74F9D9;
-  font-size: 3rem;
-  font-weight: 300;
-  margin-bottom: 0;
-  animation: flipInX 0.5s ease-out;
-}
-
 
 @keyframes fadeInFromNone {
   0% {

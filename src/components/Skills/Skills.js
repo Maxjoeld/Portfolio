@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link, NavLink } from 'react-router-dom';
 
 import './Skills.css'
 import C from './C.png';
@@ -18,6 +19,11 @@ class Skills extends Component {
   render() { 
     return ( 
       <div className="Skills">
+        <div className="about-Larrow">
+          <NavLink style={{ color: "white"}} to="/about">
+            <i style={{ cursor: 'pointer'}}className="fas fa-arrow-left fa-fw pulse" />
+          </NavLink>
+        </div>
         <div className="Skills-box">
           <div className="Skills-title animated bounceInDown">Skills</div>
           <p className="Skills-text">I’ve built several projects with different technologies. I’ve used React/React native as 
@@ -38,6 +44,11 @@ class Skills extends Component {
           <img className="icon animated bounceInDown" style={{maxWidth: '4rem', margin: '0.5rem'}}src={django} alt="C" />
           <img className="icon animated bounceInDown" style={{maxWidth: '4rem', margin: '0.5rem'}}src={redux} alt="C" />
           <img className="icon animated bounceInDown" style={{maxWidth: '4rem', margin: '0.5rem'}}src={express} alt="C" />
+        </div>
+        <div className="about-arrows">
+          <NavLink style={{ color: "white"}} to="/projects">
+            <i style={{ cursor: 'pointer'}}className="fas fa-arrow-right fa-fw pulse" />
+          </NavLink>
         </div>
       </div>
      );

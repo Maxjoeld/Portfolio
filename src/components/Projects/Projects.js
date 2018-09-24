@@ -36,10 +36,6 @@ class Projects extends Component {
     // }
     return ( 
       <div className="Projects">
-        {/* {this.state.loading ? 
-          <div className="loader"></div>
-        : null } */}
-        
           <div className="project-position first-pro">
             <p>GiveMeMyMoney</p>
             <p className="project-box"></p>

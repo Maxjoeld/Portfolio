@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link, NavLink } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom';
 import me from './me.jpg';
 
 
@@ -11,8 +11,8 @@ class About extends Component {
     return (
 
       <div className="About">
-        <div className="about-arrows" style={{ marginLeft: '2rem'}}>
-          <NavLink style={{ color: "rgb(159, 159, 159)"}} to="/home">
+        <div className="about-Larrow">
+          <NavLink style={{ color: "white"}} to="/home">
             <i style={{ cursor: 'pointer'}}className="fas fa-arrow-left fa-fw pulse" />
           </NavLink>
         </div>
@@ -35,7 +35,7 @@ class About extends Component {
           <img src={me} className="About-img" alt="img" />
         {/* </div> */}
         <div className="about-arrows">
-          <NavLink style={{ color: "rgb(159, 159, 159)"}} to="/skills">
+          <NavLink style={{ color: "white"}} to="/skills">
             <i style={{ cursor: 'pointer'}}className="fas fa-arrow-right fa-fw pulse" />
           </NavLink>
         </div>

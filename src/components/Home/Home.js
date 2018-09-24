@@ -22,7 +22,7 @@ class Home extends Component {
           </Link>
         </div>
         <div className="nav-arrows">
-          <NavLink style={{ color: "rgb(159, 159, 159)"}} to="/About">
+          <NavLink style={{ color: "white"}} to="/About">
             <i style={{ cursor: 'pointer'}}className="fas fa-arrow-right fa-fw pulse" />
           </NavLink>
         </div>

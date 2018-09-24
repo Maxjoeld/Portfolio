@@ -1,7 +1,10 @@
 .Sidebar {
   height: 60rem;
-  width: 3rem;
-  background-color: rgb(48, 48, 48);
+  min-width: 3rem;
+  background-color:rgb(26, 26, 26);
+  /* background-color: rgb(48, 48, 48); */
+  /* background-color:#1a1a1a; */
+
   /* background-color:rgba(174, 174, 174, 0.488); */
 
   border-right: 0.5px solid rgba(255, 255, 255, 0.235);
