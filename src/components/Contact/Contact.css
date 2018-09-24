@@ -6,6 +6,8 @@
   align-items: center;
   margin-left: 10%;
   position: relative;
+  -webkit-animation: scale-up-center 0.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	/* transition: scale-up-center 0.2s cubic-bezier(0.390, 1.575, 0.565, 1.000) both; */
   /* background-color: blue; */
 }
 .Contact-Larrow {
