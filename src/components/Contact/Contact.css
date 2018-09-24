@@ -1,11 +1,21 @@
 .Contact {
-  width: inherit;
-  display: flex;
-  margin: 8%;
-  /* background-color: maroon; */
-
   width: 100%;
+  height: 55rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10%;
+  position: relative;
+  /* background-color: blue; */
 }
+.Contact-Larrow {
+  position: absolute;
+  top: 50%;
+  left: -8%;
+  color: white;
+  font-size: 2.5rem;
+}
+
 .Contact-layout {
   display: flex;
   flex-direction: column;

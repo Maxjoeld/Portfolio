@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link, NavLink } from 'react-router-dom';
 import payMe from './Payme.gif';
 import Notey from './Notey.gif';
 import Lunch from './Lunch.gif';
@@ -36,6 +37,12 @@ class Projects extends Component {
     // }
     return ( 
       <div className="Projects">
+        <div className="project-Larrow">
+          <NavLink style={{ color: "white"}} to="/skills">
+            <i style={{ cursor: 'pointer'}}className="fas fa-arrow-left fa-fw pulse" />
+          </NavLink>
+        </div>
+        <div className="Projects-layout">
           <div className="project-position first-pro">
             <p>GiveMeMyMoney</p>
             <p className="project-box"></p>
@@ -50,7 +57,6 @@ class Projects extends Component {
           </div>
           <div className="project-position third-pro">
             <p>Notey</p>
-            {/* <p className="project-box"></p> */}
               <img className="project-box" src={Notey} alt="gif" />
             <div className="project-onhover">
               <div className="project-animation">
@@ -72,7 +78,7 @@ class Projects extends Component {
               </div>
               <button className="project-button"onClick={()=> this.showModal('notey')}>Learn More</button>
             </div>
-          </div> */}
+          </div>  */}
           <div className="project-position project-odd  second-pro">
             <p className="lunch">Lunch</p>
             <div className="tryew">
@@ -85,6 +91,12 @@ class Projects extends Component {
               </div>
               <button className="project-button"onClick={()=> this.showModal('lunch')}>Learn More</button>
             </div>
+          </div>
+        </div>
+        <div className="about-arrows">
+          <NavLink style={{ color: "white"}} to="/contact">
+            <i style={{ cursor: 'pointer'}}className="fas fa-arrow-right fa-fw pulse" />
+          </NavLink>
         </div>
         {this.state.showModal ? 
           <Modal showModal={this.showModal} project={this.state.project}/>

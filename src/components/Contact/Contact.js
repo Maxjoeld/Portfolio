@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link, NavLink } from 'react-router-dom';
 import Map from './map';
 import './Contact.css';
 
@@ -7,6 +8,11 @@ class Contact extends Component {
   render() { 
     return ( 
       <div className="Contact">
+        <div className="Contact-Larrow">
+          <NavLink style={{ color: "white"}} to="/projects">
+            <i style={{ cursor: 'pointer'}}className="fas fa-arrow-left fa-fw pulse" />
+          </NavLink>
+        </div>
         <div className="Contact-layout">
           <p className="Contact-title">Contact Me</p>
           <p className="Contact-subtext">If you have any questions, please feel free to contact me</p>
@@ -59,7 +65,14 @@ class Contact extends Component {
             </button>
           </form>
         </div>
-      <Map />
+        {/* <div > */}
+          <Map />
+        {/* </div> */}
+        <div className="about-arrows">
+          <NavLink style={{ color: "white"}} to="/home">
+            <i style={{ cursor: 'pointer'}}className="fas fa-arrow-right fa-fw pulse" />
+          </NavLink>
+        </div>
       </div>
      );
   }
