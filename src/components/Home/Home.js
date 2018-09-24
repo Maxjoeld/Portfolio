@@ -23,11 +23,10 @@ class Home extends Component {
         </div>
         <div className="Home-box">
           <p className="Homelogo">M<span style={{ marginLeft: '-170px'}}>D</span></p>
-          {/* <img className="logo"src={img} alt='img' /> */}
         </div>
         <div className="nav-arrows">
           <NavLink style={{ color: "white"}} to="/About">
-            <i style={{ cursor: 'pointer'}}className="fas fa-arrow-right fa-fw pulse" />
+            <i style={{ cursor: 'pointer' }}className="fas fa-arrow-right fa-fw pulse" />
           </NavLink>
         </div>
       </div>
