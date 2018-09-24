@@ -37,6 +37,16 @@
   width: 100%;
 }
 
+.Slideshow-lunch {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  /* margin: 0 auto; */
+  margin-left: 22%;
+  max-height: 100%;
+  background-color: blue;
+}
+
 .Slideshow-img {
   max-width: 100%;
 }

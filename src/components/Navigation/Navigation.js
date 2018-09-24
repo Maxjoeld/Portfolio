@@ -9,7 +9,7 @@ class Navigation extends Component {
     return (
       <div className='Navigation'>
       <div className="logo-box">
-        <p className="Navlogos">MD</p>
+        <p className="Navlogos">M<span style={{ marginLeft: '-7px'}}>D</span></p>
         {/* <img className="logo"src={img} alt='img' /> */}
       </div>
         {/* <div className='Navigation-logo'>Logo goes here</div> */}
