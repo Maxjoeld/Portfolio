@@ -94,6 +94,9 @@
 }
 
 .pin {
-  color: grey;
-  font-size: 2rem;
+  color: #74F9D9;
+  font-size: 3rem;
+  /* background-color: grey; */
+  border-radius: 10%;
+  /* font-size: 2rem; */
 }
