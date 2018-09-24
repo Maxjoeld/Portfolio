@@ -26,10 +26,17 @@ class Skills extends Component {
         </div>
         <div className="Skills-box">
           <div className="Skills-title animated bounceInDown">Skills</div>
-          <p className="Skills-text">I’ve built several projects with different technologies. I’ve used React/React native as 
-            the front-end framework for all of my apps. More technologies that I used are 
-            listed below react, react native, redux, css/sass, node, express, 
-            mongoDB, SQL,mocha, chai, python, django, C, and graphQL
+          <p className="Skills-text">
+          I've mastered several technologies
+          all of which I used to build several applications.
+          Most of the applications I built used React for web applications
+          and React Native for mobile applications. For the backend, 
+          I’v used Python/Django and Express/Node.js.
+          <br />
+          <br />
+          Additional technologies that I've built applications with are
+          listed below css/sass
+          mongoDB, sqLite , mocha, chai, Apollo and graphQL
           </p>
         </div>
         <div className="Project">
