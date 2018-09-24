@@ -5,6 +5,7 @@
   width: 110%;
   margin-left:-10rem;  */
   /*  Use this if we want to center the modal */
+  z-index: 2;
   position: fixed;
   width: 105%;
   margin-left: -15%;
@@ -107,6 +108,9 @@
 }
 
 .Slideshow-description {
+  height: 7rem;
+  /* background-color: red; */
+  overflow-y: scroll;
   font-size: 1rem;
 }
 

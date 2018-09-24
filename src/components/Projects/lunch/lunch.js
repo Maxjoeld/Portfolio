@@ -75,8 +75,14 @@ class Lunch extends Component {
               </div>
               <hr className="hr"/>
               <p className="Slideshow-description">
-                A lunch application that makes use of yelps API, and maps the restaurants within
-                the given parameters
+                Lunch is a mobile application 
+                I built independently using React-Native, Python, Django-DRF, JWT to
+                manage the sites Authentication, and Sqlite.
+                <br />
+                <br />
+                Lunch, makes use of yelps API and maps the restaurants within
+                the given parameters. 
+
               </p>
               <div className="Slideshow-view">
                 <a href="https://github.com/Maxjoeld/Lunch" target="_blank" rel="noopener noreferrer">

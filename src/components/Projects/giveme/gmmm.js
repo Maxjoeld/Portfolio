@@ -86,6 +86,10 @@ class Giveme extends Component {
                 The client can click the link in the email/sms and be directed 
                 to a page where they can easily and without barriers make the 
                 required payment to the admin.
+                <br />
+                I was responsible for the client side of the application, determining which styles to use and which
+                layout for our application would work best. I used Redux to handle the applications 
+                state and Sass to manage the applications styling.
               </p>
               <div className="Slideshow-view">
                 <a href="https://www.givememymoney.app/" target="_blank" rel="noopener noreferrer">

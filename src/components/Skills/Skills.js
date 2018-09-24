@@ -29,9 +29,9 @@ class Skills extends Component {
           <p className="Skills-text">
           I've mastered several technologies
           all of which I used to build several applications.
-          Most of the applications I built used React for web applications
-          and React Native for mobile applications. For the backend, 
-          I’v used Python/Django and Express/Node.js.
+          The applications I built use React
+          and React Native as the framework for the frontend. For the backend, 
+          I’ve used Python/Django and Express/Node.js.
           <br />
           <br />
           Additional technologies that I've built applications with are

@@ -81,8 +81,11 @@ class Notey extends Component {
               </div>
               <hr className="hr"/>
               <p className="Slideshow-description">
-                A Note taking app that can be used for general and eductional use.
-                Users are able to create/edit and communicate between each other. 
+                A note taking application I built independently using React/Redux, Express, Mongodb, and Node.
+                Application permits users to create notes and communicate with each other.
+                I used React as the framework for the frontend of the application 
+                and Express & Node.js for the backend. To manage the applications data
+                I used Mongodb/Mongoose.
               </p>
               <div className="Slideshow-view">
                 <a href="https://notey-app.herokuapp.com" target="_blank" rel="noopener noreferrer">
