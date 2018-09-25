@@ -72,7 +72,7 @@ class Notey extends Component {
                   <i className="fas fa-arrow-left fa-fw adjust" />
                 </div>
                 <div onClick={() => this.goToNextSlide()}>
-                  <i className="fas fa-arrow-left fa-fw opposite" />
+                  <i className="fas fa-arrow-right fa-fw opposite" />
                 </div>
               </div>
               <div className="SlideShow-title">
