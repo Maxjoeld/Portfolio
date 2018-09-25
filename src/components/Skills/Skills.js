@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Link, NavLink } from 'react-router-dom';
-
 import './Skills.css'
 import C from './C.png';
 import javascript from './javascript.png';
@@ -27,16 +26,14 @@ class Skills extends Component {
         <div className="Skills-box">
           <div className="Skills-title animated bounceInDown">Skills</div>
           <p className="Skills-text">
-          I've mastered several technologies
-          all of which I used to build several applications.
-          The applications I built use React
-          and React Native as the framework for the frontend. For the backend, 
-          I’ve used Python/Django and Express/Node.js.
-          <br />
+            My expertise lies in: React, React Native, Python/Django, Express/Node.js, css/sass mongoDB, sqLite, mocha, chai, Apollo and graphQL.
+            I’ve developed several applications using these technologies. View my
+            <NavLink style={{color: '#74F9D9'}} to="/projects"> work.</NavLink>
+          {/* <br />
           <br />
           Additional technologies that I've built applications with are
           listed below css/sass
-          mongoDB, sqLite , mocha, chai, Apollo and graphQL
+          mongoDB, sqLite , mocha, chai, Apollo and graphQL */}
           </p>
         </div>
         <div className="Project">

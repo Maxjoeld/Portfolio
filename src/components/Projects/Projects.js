@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { Link, NavLink } from 'react-router-dom';
+import {ToastContainer, ToastStore} from 'react-toasts';
+
 import payMe from './Payme.gif';
 import Notey from './Notey.gif';
 import Lunch from './Lunch.gif';
@@ -16,6 +18,7 @@ class Projects extends Component {
    }
 
   componentDidMount() {
+    document.getElementById('openToast').click();
     setTimeout(() => this.setState({ showNotey: true }), 500); // simulates an async action, and hides the spinner
     setTimeout(() => this.setState({ showLunch: true }), 1000); // simulates an async action, and hides the spinner
   }
@@ -29,12 +32,6 @@ class Projects extends Component {
   }
 
   render() {
-    // const { loading } = this.state;
-    let { showNotey } = this.state;
-    let { showLunch } = this.state;
-    // if(this.state.showDiv) { // if your component doesn't have to wait for an async action, remove this block 
-    //   showDiv = 'inline';
-    // }
     return ( 
       <div className="Projects">
         <div className="project-Larrow">
@@ -101,6 +98,13 @@ class Projects extends Component {
         {this.state.showModal ? 
           <Modal showModal={this.showModal} project={this.state.project}/>
         : null }
+        <p id="openToast" onClick={() => ToastStore
+            .info(
+              "Hover over the gif's to get a preview of the application",
+              6000,
+              {className: "toasty"}
+              )}></p>
+        <ToastContainer store={ToastStore} />
       </div>
      );
   }
