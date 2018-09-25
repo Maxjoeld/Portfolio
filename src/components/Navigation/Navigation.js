@@ -11,11 +11,11 @@ class Navigation extends Component {
       <div className="logo-box">
         <p className="Navlogos">M<span style={{ marginLeft: '-7px'}}>D</span></p>
         {/* <div className="Nav-Contact"> */}
-          <a style={{ color: 'white'}} href="https://www.linkedin.com/in/maximo-delarosa/" target="_blank"  rel="noopener noreferrer">
+          <a style={{ color: '#47494b'}} href="https://www.linkedin.com/in/maximo-delarosa/" target="_blank"  rel="noopener noreferrer">
             <i class="fab fa-linkedin-in"></i>
           </a>
-          <a style={{ color: 'white'}} href="https://github.com/maxjoeld" target="_blank"  rel="noopener noreferrer"><i className="fab fa-github"></i></a>
-          <a style={{ color: 'white'}} href="https://medium.com/@mjd809" target="_blank"  rel="noopener noreferrer"><i className="fab fa-medium"></i></a>
+          <a style={{ color: '#47494b'}} href="https://github.com/maxjoeld" target="_blank"  rel="noopener noreferrer"><i className="fab fa-github"></i></a>
+          <a style={{ color: '#47494b'}} href="https://medium.com/@mjd809" target="_blank"  rel="noopener noreferrer"><i className="fab fa-medium"></i></a>
         {/* </div> */}
       </div>
         {/* <div className='Navigation-logo'>Logo goes here</div> */}
