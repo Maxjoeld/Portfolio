@@ -20,7 +20,7 @@ a {
 
 .App {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   /* height: 150vh */
 }
 

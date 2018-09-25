@@ -52,7 +52,7 @@ class Projects extends Component {
                 <p className="project-onhover-title">GiveMeMyMoney</p>
                 <p className="project-stack">Node.js<span>+</span>React<span>+</span>Mongodb</p>
               </div>
-              <button className="project-button"onClick={()=> this.showModal('gmmm')}>Learn More</button>
+              <button className="project-button"onClick={()=> this.showModal('gmmm')}>Preview Site</button>
             </div>
           </div>
           <div className="project-position third-pro">
@@ -63,7 +63,7 @@ class Projects extends Component {
                 <p className="project-onhover-title">Notey</p>
                 <p className="project-stack">Node.js<span>+</span>React<span>+</span>Mongodb</p>
               </div>
-              <button className="project-button"onClick={()=> this.showModal('notey')}>Learn More</button>
+              <button className="project-button"onClick={()=> this.showModal('notey')}>Preview Site</button>
             </div>
           </div>
           {/* <div className="project-position third-pro">
@@ -76,7 +76,7 @@ class Projects extends Component {
                 <p className="project-onhover-title">Notey</p>
                 <p className="project-stack">Node.js<span>+</span>React<span>+</span>Mongodb</p>
               </div>
-              <button className="project-button"onClick={()=> this.showModal('notey')}>Learn More</button>
+              <button className="project-button"onClick={()=> this.showModal('notey')}>Preview Site</button>
             </div>
           </div>  */}
           <div className="project-position project-odd  second-pro">
@@ -89,7 +89,7 @@ class Projects extends Component {
                 <p className="project-onhover-title">Lunch</p>
                 <p className="project-stack">Python/Django<span>+</span>React Native<span>+</span>Sqlite</p>
               </div>
-              <button className="project-button"onClick={()=> this.showModal('lunch')}>Learn More</button>
+              <button className="project-button"onClick={()=> this.showModal('lunch')}>Preview Site</button>
             </div>
           </div>
         </div>
