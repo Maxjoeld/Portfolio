@@ -10,7 +10,13 @@ class Navigation extends Component {
       <div className='Navigation'>
       <div className="logo-box">
         <p className="Navlogos">M<span style={{ marginLeft: '-7px'}}>D</span></p>
-        {/* <img className="logo"src={img} alt='img' /> */}
+        {/* <div className="Nav-Contact"> */}
+          <a style={{ color: 'white'}} href="https://www.linkedin.com/in/maximo-delarosa/" target="_blank"  rel="noopener noreferrer">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a style={{ color: 'white'}} href="https://github.com/maxjoeld" target="_blank"  rel="noopener noreferrer"><i className="fab fa-github"></i></a>
+          <a style={{ color: 'white'}} href="https://medium.com/@mjd809" target="_blank"  rel="noopener noreferrer"><i className="fab fa-medium"></i></a>
+        {/* </div> */}
       </div>
         {/* <div className='Navigation-logo'>Logo goes here</div> */}
         <div className='Navigation-icons'>
@@ -55,13 +61,6 @@ class Navigation extends Component {
             </NavLink>
           </div>
         </div>
-        {/* <div className="Nav-Contact">
-          <a href="https://www.linkedin.com/in/maximo-delarosa/" target="_blank"  rel="noopener noreferrer">
-            <i class="fab fa-linkedin-in"></i>
-          </a>
-          <a href="https://github.com/maxjoeld" target="_blank"  rel="noopener noreferrer"><i className="fab fa-github two"></i></a>
-          <a href="https://medium.com/@mjd809" target="_blank"  rel="noopener noreferrer"><i className="fab fa-medium three"></i></a>
-        </div> */}
       </div>
     )
   }

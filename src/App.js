@@ -16,7 +16,7 @@ const App = () => {
         <div className="App">
             <Navigation />
           <div className="Container">
-            <Sidebar />
+            {/* <Sidebar /> */}
             <Route exact path="/home" component={Home} />
             <Route path="/about" component={About} />
             <Route path="/projects" component={Projects} />

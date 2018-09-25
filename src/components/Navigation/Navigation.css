@@ -5,7 +5,7 @@
   background-color:rgb(26, 26, 26);
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-between;  
   z-index: 1;
   /* border-bottom: 0.5px solid rgb(57, 57, 57); */
   /* align-items: ; */
@@ -21,8 +21,11 @@
 }
 
 .logo-box {
+  /* background-color: blue; */
+  color: white;
+  width: 15%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   height: 3.5rem;
   margin-left: 3%;

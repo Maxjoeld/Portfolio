@@ -10,6 +10,7 @@
 }
 
 .Home-title {
+  z-index: 1;
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -21,6 +22,7 @@
   animation: fadeInFromNone 1.5s ease-out;
 }
 .Home-box {
+  user-select: none;
   position: absolute;
   top: -100%;
   color: rgba(128, 128, 128, 0.077);
