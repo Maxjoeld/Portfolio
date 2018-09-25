@@ -100,7 +100,7 @@ class Projects extends Component {
         : null }
         <p id="openToast" onClick={() => ToastStore
             .info(
-              "Hover over the projects to get a preview of the application",
+              "Hover over each project to view a preview",
               6000,
               {className: "toasty"}
               )}></p>
