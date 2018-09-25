@@ -110,7 +110,7 @@ class Lunch extends Component {
               <p className="leave-modal" onClick={() => this.props.showModal()}>x</p>
             </div>
           </div>
-        <input/>        
+        <input style={{ display: 'none'}}/>          
       </div>     
     );
   }
