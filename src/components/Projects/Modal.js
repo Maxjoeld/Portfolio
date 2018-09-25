@@ -26,17 +26,15 @@ class Modal extends Component {
     return ( 
       <div className="Modal">
         <div className="Modal-layout">
-          <div className="Modal-box">
-            {project === "gmmm" ?
-              <Gmmm showModal={this.props.showModal} /> 
-            : null}
-            {project === "notey" ?
-              <Notey showModal={this.props.showModal} />
-            : null}
-            {project === "lunch" ?
-              <Lunch showModal={this.props.showModal} />
-            : null}
-          </div>
+          {project === "gmmm" ?
+            <Gmmm showModal={this.props.showModal} /> 
+          : null}
+          {project === "notey" ?
+            <Notey showModal={this.props.showModal} />
+          : null}
+          {project === "lunch" ?
+            <Lunch showModal={this.props.showModal} />
+          : null}
         </div>
       </div>
      );

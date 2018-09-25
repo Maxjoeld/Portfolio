@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import onClickOutside from 'react-onclickoutside';
 import Carousel from 'nuka-carousel';
 
 import invoices from './invoices.png';
@@ -14,6 +15,21 @@ class Giveme extends Component {
     translateValue: 0,
     currentIndex: 0,
    }
+
+   escFunction = (event) => {
+    if(event.keyCode === 27) {
+      this.props.showModal()
+      //Do whatever when esc is pressed
+    }
+  }
+
+   componentDidMount(){
+    document.addEventListener("keydown", this.escFunction, false);
+  }
+
+   componentWillUnmount(){
+    document.removeEventListener("keydown", this.escFunction, false);
+  }
 
    goToPrevSlide = () => {
     if(this.state.currentIndex === 0) {
@@ -52,56 +68,64 @@ class Giveme extends Component {
     return document.querySelector('.Slideshow-img').clientWidth;
   }
 
+  handleClickOutside = () => {
+    this.props.showModal()
+  }
 
+  handleKeyDown = (e) => {
+    if (e.keyCode === 27) {
+      this.props.showModal()
+    }
+  };
 
   render() {
     const { currentIndex } = this.state;
     return (
-      <React.Fragment>
-          <div className="Slideshow"style={{
-            transform: `translateX(${this.state.translateValue}px)`,
-          }}>
-            {this.state.images.map((image, i) => 
-              <img key={i}src={image} style={{ visibility: i === currentIndex ? 'visible': 'hidden' }} className="Slideshow-img" alt="img" />  
-            )}
+      <div className="Modal-box">
+        <div className="Slideshow"style={{
+          transform: `translateX(${this.state.translateValue}px)`,
+        }}>
+          {this.state.images.map((image, i) => 
+            <img key={i}src={image} style={{ visibility: i === currentIndex ? 'visible': 'hidden' }} className="Slideshow-img" alt="img" />  
+          )}
+        </div>
+        <div className="Slideshow-details">
+          <div className="Slideshow-arrows">
+            <div onClick={() => this.goToPrevSlide()}>
+              <i className="fas fa-arrow-left fa-fw adjust" />
+            </div>
+            <div onClick={() => this.goToNextSlide()}>
+              <i className="fas fa-arrow-right fa-fw opposite" />
+            </div>
           </div>
-            <div className="Slideshow-details">
-              <div className="Slideshow-arrows">
-                <div onClick={() => this.goToPrevSlide()}>
-                  <i className="fas fa-arrow-left fa-fw adjust" />
-                </div>
-                <div onClick={() => this.goToNextSlide()}>
-                  <i className="fas fa-arrow-right fa-fw opposite" />
-                </div>
-              </div>
-              <div className="SlideShow-title">
-                <p>GiveMeMyMoney</p>
-                <p className="Slideshow-details-sub">Invoice Application</p>
-              </div>
-              <hr className="hr"/>
-              <p className="Slideshow-description">
-                Give Me My Money is a subscription based application that allows 
-                "Admins" to upload invoices, and set automatic email/sms 
-                messages to be sent to their "Client". 
-                The client can click the link in the email/sms and be directed 
-                to a page where they can easily and without barriers make the 
-                required payment to the admin.
-                <br />
-                I was responsible for the client side of the application, determining which styles to use and which
-                layout for our application would work best. I used Redux to handle the applications 
-                state and Sass to manage the applications styling.
-              </p>
-              <div className="Slideshow-view">
-                <a href="https://www.givememymoney.app/" target="_blank" rel="noopener noreferrer">
-                  <button className="Slideshow-viewsite">View Site</button>
-                </a>
-                <p className="leave-modal" onClick={() => this.props.showModal()}>x</p>
-              </div>
-              </div>
-          {/* } */}
-      </React.Fragment> 
+          <div className="SlideShow-title">
+            <p>GiveMeMyMoney</p>
+            <p className="Slideshow-details-sub">Invoice Application</p>
+          </div>
+          <hr className="hr"/>
+          <p className="Slideshow-description">
+            Give Me My Money is a subscription based application that allows 
+            "Admins" to upload invoices, and set automatic email/sms 
+            messages to be sent to their "Client". 
+            The client can click the link in the email/sms and be directed 
+            to a page where they can easily and without barriers make the 
+            required payment to the admin.
+            <br />
+            I was responsible for the client side of the application, determining which styles to use and which
+            layout for our application would work best. I used Redux to handle the applications 
+            state and Sass to manage the applications styling.
+          </p>
+          <div className="Slideshow-view">
+            <a href="https://www.givememymoney.app/" target="_blank" rel="noopener noreferrer">
+              <button className="Slideshow-viewsite">View Site</button>
+            </a>
+            <p className="leave-modal" onClick={() => this.props.showModal()}>x</p>
+          </div>
+        </div>
+        <input/>
+      </div>
      );
   }
 }
  
-export default Giveme;
+export default onClickOutside(Giveme);

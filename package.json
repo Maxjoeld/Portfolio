@@ -9,6 +9,7 @@
     "react": "^16.4.2",
     "react-bootstrap": "^0.32.3",
     "react-dom": "^16.4.2",
+    "react-onclickoutside": "^6.7.1",
     "react-responsive-carousel": "^3.1.41",
     "react-router-dom": "^4.3.1",
     "react-scripts": "1.1.5",
