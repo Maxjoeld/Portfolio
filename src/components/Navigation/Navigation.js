@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { NavLink, withRouter } from 'react-router-dom'
+import { Link, NavLink, withRouter } from 'react-router-dom'
 import img from './logo.png';
 import './Navigation.css'
 
@@ -66,4 +66,4 @@ class Navigation extends Component {
   }
 }
 
-export default withRouter(Navigation)
+export default withRouter(Navigation);
