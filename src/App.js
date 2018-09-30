@@ -24,7 +24,7 @@ const App = () => {
               <Route path="/contact" component={Contact} />
               <Route exact path="/home" component={Home} />
             </Switch>
-            {/* <Redirect exact from="/" to="/home" component={Home} /> */}
+            <Redirect exact from="/" to="/home" component={Home} />
           </div>
         </div>
       </Router>
