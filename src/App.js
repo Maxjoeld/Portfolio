@@ -6,6 +6,7 @@ import Home from './components/Home/Home';
 import Skills from './components/Skills/Skills';
 import Projects from './components/Projects/Projects';
 import Contact from './components/Contact/Contact';
+import NotFound from './components/NotFound';
 
 import Navigation from './components/Navigation/Navigation';
 import Sidebar from './components/Sidebar';
@@ -23,8 +24,8 @@ const App = () => {
               <Route path="/skills" component={Skills} />
               <Route path="/contact" component={Contact} />
               <Route exact path="/home" component={Home} />
+              <Route component={NotFound} /> 
             </Switch>
-            <Redirect exact from="/" to="/home" component={Home} />
           </div>
         </div>
       </Router>
