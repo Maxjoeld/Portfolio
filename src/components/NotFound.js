@@ -1,9 +1,16 @@
-import React from 'react';
+import React, {Component} from 'react';
 import { NavLink } from 'react-router-dom';
 
-const NotFound = () => {
-  return ( 
-    <div className="notfound-layout">
+class NotFound extends Component {
+  state = {  }
+
+  componentDidMount() {
+    this.props.history.push('/home');
+  }
+
+  render() { 
+    return ( 
+      <div className="notfound-layout">
       <div >
         <h1 className="notfound-404"> 404 </h1>
         <p> We're sorry, the page you requested could not be found. <br />
@@ -11,7 +18,8 @@ const NotFound = () => {
         </p>
       </div>
     </div>
-   );
+     );
+  }
 }
  
 export default NotFound;
