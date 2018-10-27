@@ -123,6 +123,17 @@
   background: #74F9D9;
 }
 
+.Slideshow-viewcode {
+  margin-left: -12rem;
+  border: none;
+  border-radius: 5%;
+  color: white;
+  cursor: pointer;
+  width: 12rem;
+  height: 3rem;
+  background: rgb(26, 26, 26);
+}
+
 .leave-modal {
   color: #919498;
   cursor: pointer;

@@ -119,6 +119,9 @@ class Giveme extends Component {
             <a href="https://www.givememymoney.app/" target="_blank" rel="noopener noreferrer">
               <button className="Slideshow-viewsite">View Site</button>
             </a>
+            <a href="https://github.com/Lambda-School-Labs/CS8-payme" target="_blank" rel="noopener noreferrer">
+              <button className="Slideshow-viewcode">View Code</button>
+            </a>
             <p className="leave-modal" onClick={() => this.props.showModal()}>x</p>
           </div>
         </div>

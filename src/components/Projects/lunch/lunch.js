@@ -105,7 +105,7 @@ class Lunch extends Component {
             </p>
             <div className="Slideshow-view">
               <a href="https://github.com/Maxjoeld/Lunch" target="_blank" rel="noopener noreferrer">
-                <button className="Slideshow-viewsite">View Site</button>
+                <button  style={{ marginLeft: '1rem'}}className="Slideshow-viewcode">View Code</button>
               </a>
               <p className="leave-modal" onClick={() => this.props.showModal()}>x</p>
             </div>
