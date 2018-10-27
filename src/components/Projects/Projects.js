@@ -4,7 +4,7 @@ import {ToastContainer, ToastStore} from 'react-toasts';
 
 import payMe from './Payme.gif';
 import Notey from './Notey.gif';
-import Lunch from './Lunch.gif';
+import Park from './Park.gif';
 import './Projects.css';
 import Modal from './Modal';
 
@@ -79,11 +79,11 @@ class Projects extends Component {
           <div className="project-position project-odd  second-pro">
             <p className="lunch">Lunch</p>
             <div className="tryew">
-              <img className="project-box lunch" src={Lunch} alt="gif" />
+              <img className="project-box lunch" src={Park} alt="gif" />
             </div>
             <div className="project-onhover">
               <div className="project-animation">
-                <p className="project-onhover-title">Lunch</p>
+                <p className="project-onhover-title">Park</p>
                 <p className="project-stack">Python/Django<span>+</span>React Native<span>+</span>Sqlite</p>
               </div>
               <button className="project-button"onClick={()=> this.showModal('lunch')}>Learn More</button>
