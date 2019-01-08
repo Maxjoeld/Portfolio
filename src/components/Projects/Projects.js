@@ -5,6 +5,7 @@ import {ToastContainer, ToastStore} from 'react-toasts';
 import payMe from './Payme.gif';
 import Notey from './Notey.gif';
 import Park from './Park.gif';
+import Flat from './Flat.gif';
 import './Projects.css';
 import Modal from './Modal';
 
@@ -64,11 +65,11 @@ class Projects extends Component {
               <button className="project-button"onClick={()=> this.showModal('notey')}>Learn More</button>
             </div>
           </div>
-          <div className="project-position third-pro">
+          <div className="project-position">
             <p>Flatfinder</p>
-            <div className="tryew">
-              <img className="project-box" src={Notey} alt="gif" />
-            </div>
+            {/* <div className="tryew"> */}
+              <img className="project-box" src={Flat} alt="gif" />
+            {/* </div> */}
             <div className="project-onhover">
               <div className="project-animation">
                 <p className="project-onhover-title">Flatfinder</p>
@@ -77,7 +78,7 @@ class Projects extends Component {
               <button className="project-button"onClick={()=> this.showModal('flat')}>Learn More</button>
             </div>
           </div> 
-          <div className="project-position  second-pro">
+          <div className="project-position">
             <p className="lunch">Lunch</p>
             <div className="tryew">
               <img className="project-box lunch" src={Park} alt="gif" />
