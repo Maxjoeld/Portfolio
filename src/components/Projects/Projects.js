@@ -79,7 +79,7 @@ class Projects extends Component {
             </div>
           </div> 
           <div className="project-position">
-            <p className="lunch">Lunch</p>
+            <p className="lunch">Park</p>
             <div className="tryew">
               <img className="project-box lunch" src={Park} alt="gif" />
             </div>

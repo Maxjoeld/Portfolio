@@ -93,18 +93,19 @@ class Notey extends Component {
           </div>
           <div className="SlideShow-title">
             <p>Flat</p>
-            <p className="Slideshow-details-sub">Note taking application</p>
+            <p className="Slideshow-details-sub">Real estate application</p>
           </div>
           <hr className="hr"/>
           <p className="Slideshow-description">
-            Flat
+            This app scrapes Craislist data to help users find preferable living options in specified cities.The scraping
+            function utilizes CL city data and puts together a database from which user can filter though housing and location data to produce query results that fit there livability requests.
           </p>
           <div className="Slideshow-view">
-            <a href="https://notey-app.herokuapp.com" target="_blank" rel="noopener noreferrer">
+            {/* <a href="https://notey-app.herokuapp.com" target="_blank" rel="noopener noreferrer">
               <button className="Slideshow-viewsite">View Site</button>
-            </a>
-            <a href="https://github.com/Maxjoeld/Notey" target="_blank" rel="noopener noreferrer">
-              <button className="Slideshow-viewcode">View Code</button>
+            </a> */}
+            <a href="https://github.com/flatfinder19/flatfinder" target="_blank" rel="noopener noreferrer">
+              <button style={{ marginLeft: '1rem'}}className="Slideshow-viewcode">View Code</button>
             </a>
             <p className="leave-modal" onClick={() => this.props.showModal()}>x</p>
           </div>
