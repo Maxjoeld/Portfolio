@@ -3,6 +3,7 @@ import './modal.css';
 import Gmmm from './giveme/gmmm';
 import Notey from './notey/notey';
 import Lunch from './lunch/lunch';
+import Flat from './flatfinder/flat';
 
 class Modal extends Component {
   state = { 
@@ -34,6 +35,9 @@ class Modal extends Component {
           : null}
           {project === "lunch" ?
             <Lunch showModal={this.props.showModal} />
+          : null}
+          {project === "flat" ?
+            <Flat showModal={this.props.showModal} />
           : null}
         </div>
       </div>

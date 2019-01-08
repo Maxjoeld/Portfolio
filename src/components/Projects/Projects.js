@@ -15,6 +15,7 @@ class Projects extends Component {
     loading: true,
     showNotey: false,
     showLunch: false,
+    flat: false,
    }
 
   componentDidMount() {
@@ -63,20 +64,20 @@ class Projects extends Component {
               <button className="project-button"onClick={()=> this.showModal('notey')}>Learn More</button>
             </div>
           </div>
-          {/* <div className="project-position third-pro">
-            <p>Notey</p>
+          <div className="project-position third-pro">
+            <p>Flatfinder</p>
             <div className="tryew">
               <img className="project-box" src={Notey} alt="gif" />
             </div>
             <div className="project-onhover">
               <div className="project-animation">
-                <p className="project-onhover-title">Notey</p>
-                <p className="project-stack">Node.js<span>+</span>React<span>+</span>Mongodb</p>
+                <p className="project-onhover-title">Flatfinder</p>
+                <p className="project-stack">Python-Django<span>+</span>React<span>+</span>Postgresql</p>
               </div>
-              <button className="project-button"onClick={()=> this.showModal('notey')}>Learn More</button>
+              <button className="project-button"onClick={()=> this.showModal('flat')}>Learn More</button>
             </div>
-          </div>  */}
-          <div className="project-position project-odd  second-pro">
+          </div> 
+          <div className="project-position  second-pro">
             <p className="lunch">Lunch</p>
             <div className="tryew">
               <img className="project-box lunch" src={Park} alt="gif" />
