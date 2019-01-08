@@ -23,7 +23,7 @@ class About extends Component {
             as an undergraduate student. After taking several courses involving 
             creating web applications using HTML, CSS and Javascript, 
             I realized that I wanted to understand what was going on under the hood as well. 
-            In an effort to do this, I obtained an internship at Union Square 
+            In an effort to do this, I joined Union Square 
             Park Capital Management as a software engineer. 
             My eagerness to learn more about computer science and 
             web development then led me to join Lambda School, 
