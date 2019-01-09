@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import onClickOutside from 'react-onclickoutside';
 import Carousel from 'nuka-carousel';
 
-// import signin from './signin.png';
-// import todo from './todo.png';
-// import signup from './signup.png';
+import screen1 from './screen1.png';
+import screen2 from './screen2.png';
+import screen3 from './screen3.png';
 // import convo from './convo.png';
 // import home from './home.png';
 
@@ -12,7 +12,7 @@ import '../Projects.css';
 
 class Notey extends Component {
   state = { 
-    // images: [ signin, todo, home, convo, signup ],
+    images: [ screen1, screen2,screen3 ],
     translateValue: 0,
     currentIndex: 0,
    }
@@ -78,9 +78,9 @@ class Notey extends Component {
         <div className="Slideshow"style={{
           transform: `translateX(${this.state.translateValue}px)`,
         }}>
-          {/* {this.state.images.map((image, i) => 
+          {this.state.images.map((image, i) => 
             <img key={i}src={image} style={{ visibility: i === currentIndex ? 'visible': 'hidden' }} className="Slideshow-img" alt="img" />  
-          )} */}
+          )}
         </div>
         <div className="Slideshow-details">
           <div className="Slideshow-arrows">
