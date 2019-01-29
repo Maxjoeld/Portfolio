@@ -53,8 +53,6 @@ class Lunch extends Component {
         translateValue: 0
       })
     }
-    
-    // This will not run if we met the if condition above
     this.setState(prevState => ({
       currentIndex: prevState.currentIndex + 1,
       translateValue: prevState.translateValue + -(this.slideWidth())
