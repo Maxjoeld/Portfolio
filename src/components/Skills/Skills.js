@@ -19,7 +19,7 @@ class Skills extends Component {
     return ( 
       <div className="Skills">
         <div className="about-Larrow">
-          <NavLink style={{ color: "white"}} to="/about">
+          <NavLink style={{ color: "white"}} to="/home">
             <i style={{ cursor: 'pointer'}}className="fas fa-arrow-left fa-fw pulse" />
           </NavLink>
         </div>

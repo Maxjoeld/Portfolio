@@ -25,7 +25,7 @@ class Home extends Component {
           <p className="Homelogo">M<span style={{ marginLeft: '-170px'}}>D</span></p>
         </div>
         <div className="nav-arrows">
-          <NavLink style={{ color: "white"}} to="/About">
+          <NavLink style={{ color: "white"}} to="/skills">
             <i style={{ cursor: 'pointer' }}className="fas fa-arrow-right fa-fw pulse" />
           </NavLink>
         </div>
