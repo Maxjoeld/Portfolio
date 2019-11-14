@@ -26,9 +26,9 @@ class Skills extends Component {
         <div className="Skills-box">
           <div className="Skills-title animated bounceInDown">Skills</div>
           <p className="Skills-text">
-            My expertise lies in: React, React Native, Python/Django, Express/Node.js, css/sass mongoDB, sqLite, mocha, chai, Apollo and graphQL.
-            I’ve developed several applications using these technologies. View my
-            <NavLink style={{color: '#74F9D9'}} to="/projects"> work.</NavLink>
+            My expertise lies in: React, React Native, Python/Django, C#-ASP.NET core, Express/Node.js, mongoDB, SQL.
+            I’ve developed several applications using these technologies. View some <NavLink style={{color: '#74F9D9'}} to="/projects"> prototypes</NavLink> I have built
+            
           {/* <br />
           <br />
           Additional technologies that I've built applications with are

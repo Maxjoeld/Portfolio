@@ -28,14 +28,14 @@ class Navigation extends Component {
               <p className='Navigation-hover'>Home</p>
             </NavLink>
           </div>
-          <div className='Navigation-show'>
+          {/* <div className='Navigation-show'>
             <NavLink className='Navigation-links' to='/about'>
               <i class='fas fa-user' />
             </NavLink>
             <NavLink to='/about'>
             <p className='Navigation-hover'>About</p>
             </NavLink>
-          </div>
+          </div> */}
           <div className='Navigation-show'>
             <NavLink className='Navigation-links' to='/skills'>
               <i class='fas fa-cog' />

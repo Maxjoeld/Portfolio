@@ -9,11 +9,11 @@ class Home extends Component {
       <div className="Home">
         <div className="Home-title">
           Hello,<br /> 
-          I'm Maximo De La Rosa
+          I'm Maximo de la Rosa
           <div className="Home-subtext">
-            <p>Software Developer/</p>
-            <p>Graphic Designer</p>
-            <p>/Hardware Consultant</p>
+            <p>Software Developer</p>
+            {/* <p>Graphic Designer</p>
+            <p>/Hardware Consultant</p> */}
           </div>
           <Link to='/contact'>
             <button className="Contact-button">
