@@ -9,7 +9,7 @@
 
 .Projects-layout {
   margin-top: 5%;
-  width: 100%;
+  width: 90%;
   /* height: 45rem; */
   display: flex;
   flex-flow: row wrap; 
@@ -127,6 +127,10 @@
 
   .Projects {
     margin-left: 0;
+  }
+
+  .Projects-layout {
+    width: 100%
   }
 }
 
