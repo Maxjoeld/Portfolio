@@ -4,10 +4,20 @@
   display: flex;
   justify-content: space-between;
   position: relative;
-  margin-left: 10%;
+  /* margin-left: 10%; */
   font-size: 3rem;
   font-weight: 300;
 }
+
+@media only screen and (max-width : 768px) {
+
+  .Home {
+    margin-left: 0;
+    justify-content: center;
+
+  }
+}
+
 
 .Home-title {
   z-index: 1;
