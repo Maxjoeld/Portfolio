@@ -107,7 +107,7 @@ class Notey extends Component {
             <a href="https://notey-app.herokuapp.com" target="_blank" rel="noopener noreferrer">
               <button className="Slideshow-viewsite">View Site</button>
             </a>
-            <a href="https://github.com/Maxjoeld/Notey" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/Maxjoeld/Notey-k8s" target="_blank" rel="noopener noreferrer">
               <button className="Slideshow-viewcode">View Code</button>
             </a>
             <p className="leave-modal" onClick={() => this.props.showModal()}>x</p>
