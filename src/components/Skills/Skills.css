@@ -53,6 +53,20 @@
   animation-name: bounceInDown;
 }
 
+@media only screen and (max-width : 768px) {
+  .about-Larrow {
+    display: none;
+  }
+
+  .about-arrows {
+    display: none;
+  }
+  /* .Home-title {
+      margin-left: 0;
+  } */
+}
+
+
 @keyframes bounceInDown {
   from,
   60%,
