@@ -93,7 +93,7 @@ class Projects extends Component {
           </div>
         </div>
         <div className="about-arrows">
-          <NavLink style={{ color: "white"}} to="/contact">
+          <NavLink style={{ color: "white"}} to="/home">
             <i style={{ cursor: 'pointer'}}className="fas fa-arrow-right fa-fw pulse" />
           </NavLink>
         </div>

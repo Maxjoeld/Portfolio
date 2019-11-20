@@ -52,14 +52,14 @@ class Navigation extends Component {
               <p className='Navigation-hover'>Projects</p>
             </NavLink>
           </div>
-          <div className='Navigation-show'>
+          {/* <div className='Navigation-show'>
             <NavLink className='Navigation-links' to='/contact'>
               <i class='far fa-envelope' />
             </NavLink>
             <NavLink to='/contact'>          
             <p className='Navigation-hover'>Contact</p>
             </NavLink>
-          </div>
+          </div> */}
         </div>
       </div>
     )
